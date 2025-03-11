@@ -1,0 +1,224 @@
+[36m(_ray_fit pid=1166825)[0m [1000]	valid_set's binary_logloss: 0.526626
+[36m(_ray_fit pid=1175193)[0m [1000]	valid_set's binary_logloss: 0.550298[32m [repeated 9x across cluster][0m
+[36m(_ray_fit pid=1175195)[0m [4000]	valid_set's binary_logloss: 0.526862[32m [repeated 16x across cluster][0m
+[36m(_ray_fit pid=1178358)[0m [1000]	valid_set's binary_logloss: 0.550088
+[36m(_ray_fit pid=1178360)[0m [1000]	valid_set's binary_logloss: 0.553298
+[36m(_ray_fit pid=1178354)[0m [8000]	valid_set's binary_logloss: 0.53534[32m [repeated 45x across cluster][0m
+[36m(_ray_fit pid=1178357)[0m [7000]	valid_set's binary_logloss: 0.531824[32m [repeated 29x across cluster][0m
+[36m(_ray_fit pid=1184912)[0m [1000]	valid_set's binary_logloss: 0.539618[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=1196402)[0m [1000]	valid_set's binary_logloss: 0.535082[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=1196404)[0m [1000]	valid_set's binary_logloss: 0.535289[32m [repeated 7x across cluster][0m
+[36m(_ray_fit pid=1200773)[0m [1000]	valid_set's binary_logloss: 0.566188
+[36m(_ray_fit pid=1200774)[0m [1000]	valid_set's binary_logloss: 0.563726
+[36m(_ray_fit pid=1200773)[0m [3000]	valid_set's binary_logloss: 0.543976[32m [repeated 13x across cluster][0m
+[36m(_ray_fit pid=1200774)[0m [5000]	valid_set's binary_logloss: 0.53719[32m [repeated 14x across cluster][0m
+[36m(_ray_fit pid=1200770)[0m [6000]	valid_set's binary_logloss: 0.547445[32m [repeated 14x across cluster][0m
+[36m(_ray_fit pid=1200775)[0m [9000]	valid_set's binary_logloss: 0.530369[32m [repeated 16x across cluster][0m
+[36m(_ray_fit pid=1200772)[0m [6000]	valid_set's binary_logloss: 0.53924[32m [repeated 13x across cluster][0m
+[36m(_ray_fit pid=1200772)[0m [8000]	valid_set's binary_logloss: 0.538126[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=1200772)[0m [10000]	valid_set's binary_logloss: 0.537754[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1205721)[0m [1000]	valid_set's binary_logloss: 0.53239
+[36m(_ray_fit pid=1205726)[0m [1000]	valid_set's binary_logloss: 0.542534
+[36m(_ray_fit pid=1212325)[0m [1000]	valid_set's binary_logloss: 0.534139[32m [repeated 21x across cluster][0m
+[36m(_ray_fit pid=1214360)[0m [1000]	valid_set's binary_logloss: 0.546803[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=1214356)[0m [8000]	valid_set's binary_logloss: 0.539298[32m [repeated 37x across cluster][0m
+[36m(_ray_fit pid=1221733)[0m [1000]	valid_set's binary_logloss: 0.53215[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1221730)[0m [2000]	valid_set's binary_logloss: 0.54399[32m [repeated 14x across cluster][0m
+[36m(_ray_fit pid=1221732)[0m [4000]	valid_set's binary_logloss: 0.534529[32m [repeated 12x across cluster][0m
+[36m(_ray_fit pid=1236939)[0m [1000]	valid_set's binary_logloss: 0.524773[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1236935)[0m [1000]	valid_set's binary_logloss: 0.535768[32m [repeated 7x across cluster][0m
+[36m(_ray_fit pid=1270110)[0m [1000]	valid_set's binary_logloss: 0.531323
+[36m(_ray_fit pid=1270111)[0m [1000]	valid_set's binary_logloss: 0.515623
+[36m(_ray_fit pid=1292248)[0m [1000]	valid_set's binary_logloss: 0.5323[32m [repeated 2x across cluster][0m
+*** Summary of fit() ***
+Estimated performance of each model:
+                           model  score_val eval_metric  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0            WeightedEnsemble_L3   0.816085     roc_auc      81.360755  1322.710379                0.006092          10.155489            3       True        178
+1    NeuralNetFastAI_r160_BAG_L2   0.815286     roc_auc      74.641188  1045.945485                0.790015          47.677825            2       True        153
+2     NeuralNetFastAI_r37_BAG_L2   0.815069     roc_auc      74.180315  1033.961189                0.329142          35.693528            2       True        133
+3            WeightedEnsemble_L2   0.815050     roc_auc       5.037018   387.090786                0.005713           9.013025            2       True         90
+4     NeuralNetFastAI_r88_BAG_L2   0.814988     roc_auc      74.084787  1018.619360                0.233614          20.351700            2       True        145
+5    NeuralNetFastAI_r143_BAG_L2   0.814919     roc_auc      74.094970  1017.666482                0.243797          19.398822            2       True        123
+6    NeuralNetFastAI_r172_BAG_L2   0.814798     roc_auc      74.156255  1018.209950                0.305082          19.942290            2       True        162
+7    NeuralNetFastAI_r103_BAG_L2   0.814775     roc_auc      74.315411  1050.931793                0.464238          52.664133            2       True        121
+8            LightGBM_r96_BAG_L2   0.814753     roc_auc      74.261295  1002.394802                0.410121           4.127142            2       True        105
+9            CatBoost_r70_BAG_L2   0.814742     roc_auc      73.939650  1008.197584                0.088477           9.929924            2       True        124
+10           CatBoost_r13_BAG_L2   0.814686     roc_auc      73.972580  1029.983479                0.121407          31.715818            2       True        110
+11          LightGBM_r196_BAG_L2   0.814682     roc_auc      75.437336  1011.778059                1.586163          13.510399            2       True        126
+12           CatBoost_r60_BAG_L2   0.814667     roc_auc      73.915135  1002.680616                0.063962           4.412956            2       True        154
+13           CatBoost_r86_BAG_L2   0.814651     roc_auc      73.926630  1011.593175                0.075456          13.325515            2       True        132
+14           CatBoost_r12_BAG_L2   0.814629     roc_auc      73.922155  1006.522850                0.070982           8.255190            2       True        168
+15             LightGBMXT_BAG_L2   0.814619     roc_auc      73.944613  1000.500898                0.093439           2.233238            2       True         91
+16           LightGBM_r94_BAG_L2   0.814605     roc_auc      73.988702  1000.373942                0.137529           2.106282            2       True        140
+17           CatBoost_r69_BAG_L2   0.814569     roc_auc      73.929962  1002.408071                0.078788           4.140411            2       True        120
+18   NeuralNetFastAI_r145_BAG_L2   0.814538     roc_auc      74.633586  1067.134544                0.782412          68.866884            2       True        113
+19               CatBoost_BAG_L2   0.814520     roc_auc      73.927974  1002.198975                0.076801           3.931315            2       True         95
+20           CatBoost_r50_BAG_L2   0.814500     roc_auc      73.934733  1001.495725                0.083559           3.228065            2       True        116
+21   NeuralNetFastAI_r127_BAG_L2   0.814478     roc_auc      74.085867  1010.801816                0.234694          12.534155            2       True        165
+22   NeuralNetFastAI_r187_BAG_L2   0.814469     roc_auc      74.098476  1018.335654                0.247303          20.067994            2       True        174
+23            CatBoost_r5_BAG_L2   0.814436     roc_auc      73.925132  1001.896782                0.073959           3.629122            2       True        148
+24          CatBoost_r198_BAG_L2   0.814431     roc_auc      73.933882  1003.452423                0.082709           5.184763            2       True        173
+25   NeuralNetFastAI_r111_BAG_L2   0.814423     roc_auc      74.057183  1008.889456                0.206009          10.621796            2       True        142
+26          CatBoost_r137_BAG_L2   0.814419     roc_auc      73.930586  1002.380274                0.079413           4.112614            2       True        108
+27          CatBoost_r163_BAG_L2   0.814417     roc_auc      73.926949  1001.263269                0.075775           2.995609            2       True        172
+28          LightGBM_r131_BAG_L2   0.814367     roc_auc      74.149227  1003.162024                0.298053           4.894364            2       True        102
+29    NeuralNetFastAI_r11_BAG_L2   0.814365     roc_auc      74.662446  1081.756642                0.811272          83.488981            2       True        117
+30           CatBoost_r49_BAG_L2   0.814351     roc_auc      73.932091  1001.938286                0.080918           3.670626            2       True        134
+31           LightGBM_r30_BAG_L2   0.814328     roc_auc      74.359370  1004.864888                0.508196           6.597228            2       True        146
+32            XGBoost_r31_BAG_L2   0.814317     roc_auc      74.184079  1005.827037                0.332906           7.559377            2       True        152
+33            CatBoost_r9_BAG_L2   0.814302     roc_auc      73.952534  1013.478938                0.101361          15.211278            2       True        104
+34           LightGBM_r15_BAG_L2   0.814285     roc_auc      74.021762  1001.245321                0.170589           2.977661            2       True        131
+35          CatBoost_r143_BAG_L2   0.814273     roc_auc      73.942072  1002.867894                0.090898           4.600234            2       True        149
+36        NeuralNetFastAI_BAG_L2   0.814266     roc_auc      74.299057  1032.303643                0.447883          34.035983            2       True         98
+37          CatBoost_r177_BAG_L2   0.814198     roc_auc      73.933545  1001.751664                0.082372           3.484004            2       True        101
+38          CatBoost_r167_BAG_L2   0.814194     roc_auc      73.915475  1001.720459                0.064302           3.452799            2       True        128
+39            CatBoost_r6_BAG_L2   0.814190     roc_auc      73.928005  1001.338872                0.076831           3.071212            2       True        159
+40            XGBoost_r95_BAG_L2   0.814184     roc_auc      74.119713  1000.569940                0.268539           2.302280            2       True        175
+41     NeuralNetFastAI_r4_BAG_L2   0.814181     roc_auc      74.271735  1032.976168                0.420562          34.708508            2       True        169
+42    NeuralNetFastAI_r69_BAG_L2   0.814164     roc_auc      74.587437  1041.715515                0.736264          43.447855            2       True        158
+43          LightGBM_r188_BAG_L2   0.814128     roc_auc      73.988672  1001.139420                0.137498           2.871760            2       True        112
+44            XGBoost_r98_BAG_L2   0.814128     roc_auc      74.169814  1016.496786                0.318641          18.229126            2       True        130
+45    NeuralNetFastAI_r95_BAG_L2   0.814052     roc_auc      74.628870  1068.680626                0.777697          70.412966            2       True        129
+46            XGBoost_r89_BAG_L2   0.814045     roc_auc      74.110743  1000.665154                0.259569           2.397494            2       True        114
+47       RandomForest_r34_BAG_L2   0.813993     roc_auc      75.261545  1018.109940                1.410372          19.842280            2       True        139
+48          ExtraTrees_r4_BAG_L2   0.813991     roc_auc      75.332365  1000.237583                1.481191           1.969923            2       True        143
+49   NeuralNetFastAI_r102_BAG_L2   0.813990     roc_auc      74.025692  1009.473087                0.174519          11.205426            2       True        109
+50   NeuralNetFastAI_r191_BAG_L2   0.813969     roc_auc      74.424182  1067.336927                0.573008          69.069267            2       True        103
+51               LightGBM_BAG_L2   0.813964     roc_auc      73.945025  1000.268142                0.093851           2.000481            2       True         92
+52          CatBoost_r128_BAG_L2   0.813938     roc_auc      73.959029  1013.429079                0.107856          15.161419            2       True        141
+53          LightGBM_r161_BAG_L2   0.813926     roc_auc      74.272565  1007.591119                0.421392           9.323459            2       True        122
+54   NeuralNetFastAI_r194_BAG_L2   0.813914     roc_auc      74.349917  1029.484863                0.498744          31.217202            2       True        167
+55          LightGBM_r121_BAG_L2   0.813876     roc_auc      74.279933  1007.091486                0.428760           8.823825            2       True        161
+56          LightGBM_r130_BAG_L2   0.813835     roc_auc      73.974648  1000.817357                0.123475           2.549696            2       True        115
+57            XGBoost_r49_BAG_L2   0.813829     roc_auc      74.178571  1002.198426                0.327398           3.930766            2       True        147
+58          CatBoost_r180_BAG_L2   0.813801     roc_auc      73.926947  1006.010371                0.075773           7.742711            2       True        163
+59            XGBoost_r22_BAG_L2   0.813723     roc_auc      74.132226  1000.624493                0.281052           2.356833            2       True        157
+60    NeuralNetFastAI_r65_BAG_L2   0.813641     roc_auc      74.079364  1013.496224                0.228190          15.228564            2       True        144
+61            XGBoost_r33_BAG_L2   0.813137     roc_auc      74.267850  1012.422824                0.416677          14.155164            2       True        106
+62          LightGBMLarge_BAG_L2   0.813118     roc_auc      73.997394  1002.403560                0.146221           4.135900            2       True        100
+63          LightGBM_r143_BAG_L2   0.813071     roc_auc      74.122679  1006.064933                0.271505           7.797273            2       True        136
+64           LightGBM_r42_BAG_L2   0.813059     roc_auc      73.924910  1000.488872                0.073736           2.221211            2       True        177
+65                XGBoost_BAG_L2   0.813040     roc_auc      74.080734  1000.593052                0.229561           2.325392            2       True         99
+66   NeuralNetFastAI_r138_BAG_L2   0.812966     roc_auc      74.657329  1092.641346                0.806155          94.373686            2       True        160
+67           XGBoost_r194_BAG_L2   0.812747     roc_auc      73.946879  1000.857668                0.095706           2.590008            2       True        118
+68            XGBoost_r34_BAG_L2   0.812686     roc_auc      74.245127  1007.984299                0.393954           9.716639            2       True        176
+69        ExtraTrees_r126_BAG_L2   0.812432     roc_auc      75.763326   999.509722                1.912152           1.242062            2       True        170
+70        ExtraTrees_r178_BAG_L2   0.812057     roc_auc      75.647292  1000.373391                1.796119           2.105731            2       True        150
+71          LightGBM_r135_BAG_L2   0.811992     roc_auc      74.002304  1003.020869                0.151131           4.753208            2       True        156
+72   NeuralNetFastAI_r156_BAG_L2   0.811552     roc_auc      74.044474  1008.872473                0.193301          10.604813            2       True        125
+73        ExtraTrees_r172_BAG_L2   0.811436     roc_auc      75.570579  1000.943184                1.719405           2.675524            2       True        119
+74   NeuralNetFastAI_r134_BAG_L2   0.811366     roc_auc      74.119343  1019.089118                0.268169          20.821458            2       True        138
+75      RandomForest_r127_BAG_L2   0.810656     roc_auc      75.534170  1037.356404                1.682997          39.088743            2       True        137
+76       RandomForestEntr_BAG_L2   0.810586     roc_auc      75.633621  1003.019591                1.782447           4.751931            2       True         94
+77         ExtraTreesEntr_BAG_L2   0.810280     roc_auc      75.899024   999.487055                2.047850           1.219395            2       True         97
+78         ExtraTrees_r49_BAG_L2   0.810213     roc_auc      75.899162   999.516750                2.047989           1.249090            2       True        135
+79         ExtraTreesGini_BAG_L2   0.810213     roc_auc      75.903194   999.500031                2.052020           1.232371            2       True         96
+80   NeuralNetFastAI_r100_BAG_L2   0.809528     roc_auc      74.169801  1017.797670                0.318627          19.530010            2       True        171
+81       RandomForest_r15_BAG_L2   0.809469     roc_auc      75.695789  1029.489482                1.844616          31.221822            2       True        155
+82      RandomForest_r166_BAG_L2   0.809403     roc_auc      75.832308  1001.403989                1.981134           3.136329            2       True        151
+83         ExtraTrees_r42_BAG_L2   0.808990     roc_auc      75.708214  1000.718691                1.857040           2.451031            2       True        107
+84       RandomForest_r39_BAG_L2   0.808885     roc_auc      75.669971  1031.779233                1.818798          33.511572            2       True        127
+85        ExtraTrees_r197_BAG_L2   0.808733     roc_auc      75.735110  1001.434288                1.883937           3.166628            2       True        164
+86       RandomForestGini_BAG_L2   0.808591     roc_auc      75.723262  1002.842525                1.872088           4.574864            2       True         93
+87           CatBoost_r13_BAG_L1   0.806612     roc_auc       0.122338    56.242804                0.122338          56.242804            1       True         22
+88       RandomForest_r16_BAG_L2   0.806531     roc_auc      75.794929  1046.062249                1.943756          47.794589            2       True        166
+89      RandomForest_r195_BAG_L2   0.806412     roc_auc      75.735060  1033.425131                1.883887          35.157471            2       True        111
+90           LightGBM_r30_BAG_L1   0.806089     roc_auc       3.868710    24.973388                3.868710          24.973388            1       True         58
+91   NeuralNetFastAI_r187_BAG_L1   0.805374     roc_auc       0.185786    18.067311                0.185786          18.067311            1       True         86
+92           CatBoost_r86_BAG_L1   0.805056     roc_auc       0.077592    25.217032                0.077592          25.217032            1       True         44
+93           CatBoost_r12_BAG_L1   0.804931     roc_auc       0.089014    24.771737                0.089014          24.771737            1       True         80
+94            XGBoost_r98_BAG_L1   0.804738     roc_auc       0.908923    28.880363                0.908923          28.880363            1       True         42
+95          LightGBM_r161_BAG_L1   0.804734     roc_auc       1.924348    13.747665                1.924348          13.747665            1       True         34
+96          LightGBM_r121_BAG_L1   0.804603     roc_auc       1.654538    17.124392                1.654538          17.124392            1       True         73
+97    NeuralNetFastAI_r69_BAG_L1   0.804476     roc_auc       0.654751    39.841932                0.654751          39.841932            1       True         70
+98          LightGBM_r135_BAG_L1   0.804389     roc_auc       0.336619     5.424582                0.336619           5.424582            1       True         68
+99               CatBoost_BAG_L1   0.804147     roc_auc       0.077248    19.908324                0.077248          19.908324            1       True          7
+100         CatBoost_r198_BAG_L1   0.804056     roc_auc       0.066481    22.555971                0.066481          22.555971            1       True         85
+101   NeuralNetFastAI_r37_BAG_L1   0.803828     roc_auc       0.271413    33.925162                0.271413          33.925162            1       True         45
+102           XGBoost_r33_BAG_L1   0.803788     roc_auc       0.848847    11.691459                0.848847          11.691459            1       True         18
+103           CatBoost_r9_BAG_L1   0.803785     roc_auc       0.086997    24.135704                0.086997          24.135704            1       True         16
+104         LightGBM_r196_BAG_L1   0.803742     roc_auc      16.154855    39.775474               16.154855          39.775474            1       True         38
+105         LightGBM_r131_BAG_L1   0.803627     roc_auc       2.114824     8.905531                2.114824           8.905531            1       True         14
+106         LightGBM_r143_BAG_L1   0.803618     roc_auc       1.015348    10.148295                1.015348          10.148295            1       True         48
+107         LightGBM_r188_BAG_L1   0.803452     roc_auc       0.997369     6.541038                0.997369           6.541038            1       True         24
+108  NeuralNetFastAI_r194_BAG_L1   0.803432     roc_auc       0.421761    27.908028                0.421761          27.908028            1       True         79
+109         CatBoost_r143_BAG_L1   0.802871     roc_auc       0.053174     9.407808                0.053174           9.407808            1       True         61
+110  NeuralNetFastAI_r103_BAG_L1   0.802817     roc_auc       0.455585    51.709871                0.455585          51.709871            1       True         33
+111         CatBoost_r128_BAG_L1   0.802755     roc_auc       0.085126    19.484907                0.085126          19.484907            1       True         53
+112           XGBoost_r49_BAG_L1   0.802622     roc_auc       0.234901     4.778799                0.234901           4.778799            1       True         59
+113         LightGBMLarge_BAG_L1   0.802549     roc_auc       0.262935     4.616416                0.262935           4.616416            1       True         12
+114            LightGBMXT_BAG_L1   0.802536     roc_auc       0.843406     4.313225                0.843406           4.313225            1       True          3
+115          LightGBM_r96_BAG_L1   0.802528     roc_auc       6.676914    15.138580                6.676914          15.138580            1       True         17
+116          CatBoost_r69_BAG_L1   0.802500     roc_auc       0.074438    15.156279                0.074438          15.156279            1       True         32
+117         CatBoost_r167_BAG_L1   0.802434     roc_auc       0.031661     7.759901                0.031661           7.759901            1       True         40
+118           XGBoost_r34_BAG_L1   0.802415     roc_auc       0.549629     8.243016                0.549629           8.243016            1       True         88
+119         LightGBM_r130_BAG_L1   0.802329     roc_auc       0.217597     3.105937                0.217597           3.105937            1       True         27
+120          CatBoost_r60_BAG_L1   0.802196     roc_auc       0.053617    14.160078                0.053617          14.160078            1       True         66
+121         CatBoost_r177_BAG_L1   0.802011     roc_auc       0.060439     9.214263                0.060439           9.214263            1       True         13
+122         CatBoost_r180_BAG_L1   0.801611     roc_auc       0.057003    10.603214                0.057003          10.603214            1       True         75
+123          CatBoost_r70_BAG_L1   0.801577     roc_auc       0.080431    14.094227                0.080431          14.094227            1       True         36
+124         CatBoost_r163_BAG_L1   0.800793     roc_auc       0.049697     7.467309                0.049697           7.467309            1       True         84
+125          LightGBM_r15_BAG_L1   0.800689     roc_auc       1.439413     7.753867                1.439413           7.753867            1       True         43
+126           CatBoost_r5_BAG_L1   0.800592     roc_auc       0.069530    21.161564                0.069530          21.161564            1       True         60
+127              LightGBM_BAG_L1   0.800453     roc_auc       0.166252     2.279698                0.166252           2.279698            1       True          4
+128         CatBoost_r137_BAG_L1   0.800439     roc_auc       0.084602    20.132798                0.084602          20.132798            1       True         20
+129          LightGBM_r94_BAG_L1   0.800272     roc_auc       2.138683     6.838172                2.138683           6.838172            1       True         52
+130  NeuralNetFastAI_r127_BAG_L1   0.800241     roc_auc       0.194276    11.005128                0.194276          11.005128            1       True         77
+131          CatBoost_r49_BAG_L1   0.800211     roc_auc       0.076688    15.436873                0.076688          15.436873            1       True         46
+132          XGBoost_r194_BAG_L1   0.800209     roc_auc       0.047148     1.874938                0.047148           1.874938            1       True         30
+133  NeuralNetFastAI_r145_BAG_L1   0.799959     roc_auc       0.680091    65.249396                0.680091          65.249396            1       True         25
+134               XGBoost_BAG_L1   0.799693     roc_auc       0.112500     2.302473                0.112500           2.302473            1       True         11
+135  NeuralNetFastAI_r111_BAG_L1   0.799507     roc_auc       0.160305     9.662644                0.160305           9.662644            1       True         54
+136           XGBoost_r22_BAG_L1   0.799486     roc_auc       0.137219     2.331401                0.137219           2.331401            1       True         69
+137           XGBoost_r95_BAG_L1   0.799260     roc_auc       0.160713     2.470204                0.160713           2.470204            1       True         87
+138           XGBoost_r89_BAG_L1   0.799006     roc_auc       0.132098     2.731565                0.132098           2.731565            1       True         26
+139           XGBoost_r31_BAG_L1   0.798397     roc_auc       2.519507    23.741640                2.519507          23.741640            1       True         64
+140          CatBoost_r50_BAG_L1   0.798233     roc_auc       0.084354     9.309934                0.084354           9.309934            1       True         28
+141           CatBoost_r6_BAG_L1   0.797824     roc_auc       0.054642     6.755002                0.054642           6.755002            1       True         71
+142       NeuralNetFastAI_BAG_L1   0.797324     roc_auc       0.423409    29.872654                0.423409          29.872654            1       True         10
+143  NeuralNetFastAI_r102_BAG_L1   0.796966     roc_auc       0.146740     9.426238                0.146740           9.426238            1       True         21
+144  NeuralNetFastAI_r160_BAG_L1   0.796896     roc_auc       0.695129    45.076966                0.695129          45.076966            1       True         65
+145  NeuralNetFastAI_r138_BAG_L1   0.796662     roc_auc       0.768507    98.629341                0.768507          98.629341            1       True         72
+146   NeuralNetFastAI_r95_BAG_L1   0.794880     roc_auc       0.770683    67.397926                0.770683          67.397926            1       True         41
+147  NeuralNetFastAI_r191_BAG_L1   0.794833     roc_auc       0.490588    65.106102                0.490588          65.106102            1       True         15
+148  NeuralNetFastAI_r172_BAG_L1   0.794100     roc_auc       0.243991    17.191044                0.243991          17.191044            1       True         74
+149          LightGBM_r42_BAG_L1   0.793862     roc_auc       0.293329     3.811212                0.293329           3.811212            1       True         89
+150      RandomForestEntr_BAG_L1   0.792872     roc_auc       1.399196     2.621684                1.399196           2.621684            1       True          6
+151  NeuralNetFastAI_r143_BAG_L1   0.792828     roc_auc       0.190171    16.864522                0.190171          16.864522            1       True         35
+152      RandomForest_r15_BAG_L1   0.791788     roc_auc       1.320330     7.370341                1.320330           7.370341            1       True         67
+153      RandomForest_r39_BAG_L1   0.790422     roc_auc       1.354677     7.902353                1.354677           7.902353            1       True         39
+154       ExtraTrees_r172_BAG_L1   0.790105     roc_auc       1.330235     1.287019                1.330235           1.287019            1       True         31
+155     RandomForest_r127_BAG_L1   0.789923     roc_auc       1.249861     9.405806                1.249861           9.405806            1       True         49
+156       ExtraTrees_r178_BAG_L1   0.788916     roc_auc       1.359186     1.252422                1.359186           1.252422            1       True         62
+157      RandomForest_r34_BAG_L1   0.788792     roc_auc       0.991826     5.214983                0.991826           5.214983            1       True         51
+158      RandomForestGini_BAG_L1   0.788590     roc_auc       1.467355     2.426429                1.467355           2.426429            1       True          5
+159     RandomForest_r195_BAG_L1   0.788466     roc_auc       1.404139     8.092107                1.404139           8.092107            1       True         23
+160  NeuralNetFastAI_r134_BAG_L1   0.788427     roc_auc       0.253751    24.328719                0.253751          24.328719            1       True         50
+161       ExtraTrees_r197_BAG_L1   0.787862     roc_auc       1.504604     1.515494                1.504604           1.515494            1       True         76
+162     RandomForest_r166_BAG_L1   0.787476     roc_auc       1.470635     1.895667                1.470635           1.895667            1       True         63
+163        ExtraTrees_r42_BAG_L1   0.786913     roc_auc       1.509742     1.329645                1.509742           1.329645            1       True         19
+164      RandomForest_r16_BAG_L1   0.786383     roc_auc       1.386808    11.082714                1.386808          11.082714            1       True         78
+165         ExtraTrees_r4_BAG_L1   0.784870     roc_auc       1.101858     1.198373                1.101858           1.198373            1       True         55
+166  NeuralNetFastAI_r156_BAG_L1   0.780036     roc_auc       0.150359    12.283884                0.150359          12.283884            1       True         37
+167    NeuralNetFastAI_r4_BAG_L1   0.779376     roc_auc       0.356193    32.146772                0.356193          32.146772            1       True         81
+168   NeuralNetFastAI_r11_BAG_L1   0.778861     roc_auc       0.727023    73.155323                0.727023          73.155323            1       True         29
+169   NeuralNetFastAI_r88_BAG_L1   0.776726     roc_auc       0.169781    16.056885                0.169781          16.056885            1       True         57
+170  NeuralNetFastAI_r100_BAG_L1   0.775396     roc_auc       0.220008    24.126493                0.220008          24.126493            1       True         83
+171       ExtraTrees_r126_BAG_L1   0.765133     roc_auc       1.609110     1.064243                1.609110           1.064243            1       True         82
+172        ExtraTreesEntr_BAG_L1   0.763188     roc_auc       1.738979     1.070827                1.738979           1.070827            1       True          9
+173        ExtraTrees_r49_BAG_L1   0.761273     roc_auc       1.749745     1.102472                1.749745           1.102472            1       True         47
+174        ExtraTreesGini_BAG_L1   0.761273     roc_auc       1.825397     1.092848                1.825397           1.092848            1       True          8
+175   NeuralNetFastAI_r65_BAG_L1   0.749920     roc_auc       0.185259    13.771135                0.185259          13.771135            1       True         56
+176        KNeighborsDist_BAG_L1   0.611749     roc_auc       0.210131     0.044209                0.210131           0.044209            1       True          2
+177        KNeighborsUnif_BAG_L1   0.606866     roc_auc       0.212535     0.048165                0.212535           0.048165            1       True          1
+Number of models trained: 178
+Types of models trained:
+{'StackerEnsembleModel_CatBoost', 'StackerEnsembleModel_LGB', 'StackerEnsembleModel_NNFastAiTabular', 'StackerEnsembleModel_XT', 'StackerEnsembleModel_RF', 'WeightedEnsembleModel', 'StackerEnsembleModel_KNN', 'StackerEnsembleModel_XGBoost'}
+Bagging used: True  (with 8 folds)
+Multi-layer stack-ensembling used: True  (with 3 levels)
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', []) : 28 | ['f0', 'f1', 'f2', 'f3', 'f4', ...]
+Plot summary of models saved to file: /home/echung32/koa_scratch/modelsSummaryOfModels.html
+*** End of fit() summary ***
+[36m(_ray_fit pid=1292253)[0m [1000]	valid_set's binary_logloss: 0.530018[32m [repeated 7x across cluster][0m

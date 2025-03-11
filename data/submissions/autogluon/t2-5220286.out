@@ -1,0 +1,419 @@
+   label        f0        f1        f2  ...       f24       f25       f26       f27
+0    1.0  0.869293 -0.635082  0.225690  ...  0.920005  0.721657  0.988751  0.876678
+1    1.0  0.907542  0.329147  0.359412  ...  0.978098  0.779732  0.992356  0.798343
+2    1.0  0.798835  1.470639 -1.635975  ...  0.951331  0.803252  0.865924  0.780118
+3    0.0  1.344385 -0.876626  0.935913  ...  0.728281  0.869200  1.026736  0.957904
+4    1.0  1.105009  0.321356  1.522401  ...  0.838085  1.133295  0.872245  0.808487
+
+[5 rows x 29 columns]
+count    50000.000000
+mean         0.531300
+std          0.499024
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: label, dtype: float64
+[36m(_ray_fit pid=877704)[0m [1000]	valid_set's binary_logloss: 0.540148
+[36m(_ray_fit pid=877703)[0m [1000]	valid_set's binary_logloss: 0.540248
+[36m(_ray_fit pid=877705)[0m [1000]	valid_set's binary_logloss: 0.531887
+[36m(_ray_fit pid=877701)[0m [1000]	valid_set's binary_logloss: 0.537325[32m [repeated 3x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(_ray_fit pid=877706)[0m [2000]	valid_set's binary_logloss: 0.525502[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=907752)[0m [1000]	valid_set's binary_logloss: 0.539902
+[36m(_ray_fit pid=907753)[0m [1000]	valid_set's binary_logloss: 0.539229
+[36m(_ray_fit pid=907756)[0m [1000]	valid_set's binary_logloss: 0.540271[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=907747)[0m [1000]	valid_set's binary_logloss: 0.535893[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=907749)[0m [1000]	valid_set's binary_logloss: 0.537367[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=907752)[0m [2000]	valid_set's binary_logloss: 0.539576
+[36m(_ray_fit pid=907762)[0m [2000]	valid_set's binary_logloss: 0.526811
+[36m(_ray_fit pid=907757)[0m [2000]	valid_set's binary_logloss: 0.53193[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=907749)[0m [2000]	valid_set's binary_logloss: 0.53599
+[36m(_ray_fit pid=907753)[0m [3000]	valid_set's binary_logloss: 0.536426
+[36m(_ray_fit pid=907762)[0m [3000]	valid_set's binary_logloss: 0.526454
+[36m(_ray_fit pid=907757)[0m [3000]	valid_set's binary_logloss: 0.53192
+[36m(_ray_fit pid=907762)[0m [4000]	valid_set's binary_logloss: 0.526862
+[36m(_ray_fit pid=933010)[0m [1000]	valid_set's binary_logloss: 0.552377
+[36m(_ray_fit pid=933010)[0m [2000]	valid_set's binary_logloss: 0.545792
+[36m(_ray_fit pid=932998)[0m [1000]	valid_set's binary_logloss: 0.555307
+[36m(_ray_fit pid=933010)[0m [3000]	valid_set's binary_logloss: 0.542984[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=933001)[0m [1000]	valid_set's binary_logloss: 0.540793[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933013)[0m [2000]	valid_set's binary_logloss: 0.546896[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=933008)[0m [2000]	valid_set's binary_logloss: 0.540279[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932995)[0m [3000]	valid_set's binary_logloss: 0.540824
+[36m(_ray_fit pid=932998)[0m [3000]	valid_set's binary_logloss: 0.545376
+[36m(_ray_fit pid=933010)[0m [5000]	valid_set's binary_logloss: 0.540267[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=933008)[0m [3000]	valid_set's binary_logloss: 0.538584[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933013)[0m [4000]	valid_set's binary_logloss: 0.542391
+[36m(_ray_fit pid=932995)[0m [4000]	valid_set's binary_logloss: 0.539176
+[36m(_ray_fit pid=933005)[0m [4000]	valid_set's binary_logloss: 0.53371[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933008)[0m [4000]	valid_set's binary_logloss: 0.537489[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=932995)[0m [5000]	valid_set's binary_logloss: 0.537972[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=932998)[0m [5000]	valid_set's binary_logloss: 0.541973
+[36m(_ray_fit pid=933005)[0m [5000]	valid_set's binary_logloss: 0.532542
+[36m(_ray_fit pid=933001)[0m [4000]	valid_set's binary_logloss: 0.529934[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932995)[0m [6000]	valid_set's binary_logloss: 0.537251[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932998)[0m [6000]	valid_set's binary_logloss: 0.541308[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933001)[0m [5000]	valid_set's binary_logloss: 0.52866[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932995)[0m [7000]	valid_set's binary_logloss: 0.536471[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932998)[0m [7000]	valid_set's binary_logloss: 0.540598[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933013)[0m [8000]	valid_set's binary_logloss: 0.539486[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=932995)[0m [8000]	valid_set's binary_logloss: 0.536365[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=933013)[0m [9000]	valid_set's binary_logloss: 0.539207[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933008)[0m [8000]	valid_set's binary_logloss: 0.53534[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=933013)[0m [10000]	valid_set's binary_logloss: 0.539351[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933005)[0m [9000]	valid_set's binary_logloss: 0.531552[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=933008)[0m [9000]	valid_set's binary_logloss: 0.535631[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933009)[0m [10000]	valid_set's binary_logloss: 0.548294[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=933001)[0m [9000]	valid_set's binary_logloss: 0.526194[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=961471)[0m [1000]	valid_set's binary_logloss: 0.523916[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=961464)[0m [1000]	valid_set's binary_logloss: 0.535359
+[36m(_ray_fit pid=961455)[0m [1000]	valid_set's binary_logloss: 0.539618
+[36m(_ray_fit pid=961479)[0m [1000]	valid_set's binary_logloss: 0.536445[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1033909)[0m [1000]	valid_set's binary_logloss: 0.537324
+[36m(_ray_fit pid=1033910)[0m [1000]	valid_set's binary_logloss: 0.524331
+[36m(_ray_fit pid=1033905)[0m [1000]	valid_set's binary_logloss: 0.535611[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1033907)[0m [1000]	valid_set's binary_logloss: 0.529666[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1033908)[0m [1000]	valid_set's binary_logloss: 0.535289
+[36m(_ray_fit pid=1033906)[0m [1000]	valid_set's binary_logloss: 0.535082
+[36m(_ray_fit pid=1062402)[0m [1000]	valid_set's binary_logloss: 0.560376
+[36m(_ray_fit pid=1062397)[0m [1000]	valid_set's binary_logloss: 0.566188
+[36m(_ray_fit pid=1062404)[0m [1000]	valid_set's binary_logloss: 0.567924
+[36m(_ray_fit pid=1062398)[0m [1000]	valid_set's binary_logloss: 0.555342
+[36m(_ray_fit pid=1062391)[0m [1000]	valid_set's binary_logloss: 0.57122[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062392)[0m [1000]	valid_set's binary_logloss: 0.560348[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062401)[0m [2000]	valid_set's binary_logloss: 0.546965
+[36m(_ray_fit pid=1062398)[0m [2000]	valid_set's binary_logloss: 0.536838
+[36m(_ray_fit pid=1062404)[0m [2000]	valid_set's binary_logloss: 0.551081[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062397)[0m [2000]	valid_set's binary_logloss: 0.549784
+[36m(_ray_fit pid=1062391)[0m [2000]	valid_set's binary_logloss: 0.556578
+[36m(_ray_fit pid=1062392)[0m [2000]	valid_set's binary_logloss: 0.544034
+[36m(_ray_fit pid=1062403)[0m [2000]	valid_set's binary_logloss: 0.550001
+[36m(_ray_fit pid=1062401)[0m [3000]	valid_set's binary_logloss: 0.541262
+[36m(_ray_fit pid=1062398)[0m [3000]	valid_set's binary_logloss: 0.530408
+[36m(_ray_fit pid=1062402)[0m [3000]	valid_set's binary_logloss: 0.536817
+[36m(_ray_fit pid=1062404)[0m [3000]	valid_set's binary_logloss: 0.545667
+[36m(_ray_fit pid=1062403)[0m [3000]	valid_set's binary_logloss: 0.544688[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1062392)[0m [3000]	valid_set's binary_logloss: 0.538832
+[36m(_ray_fit pid=1062398)[0m [4000]	valid_set's binary_logloss: 0.527037
+[36m(_ray_fit pid=1062401)[0m [4000]	valid_set's binary_logloss: 0.538515
+[36m(_ray_fit pid=1062404)[0m [4000]	valid_set's binary_logloss: 0.542343
+[36m(_ray_fit pid=1062397)[0m [4000]	valid_set's binary_logloss: 0.540948
+[36m(_ray_fit pid=1062403)[0m [4000]	valid_set's binary_logloss: 0.54218
+[36m(_ray_fit pid=1062402)[0m [4000]	valid_set's binary_logloss: 0.533755
+[36m(_ray_fit pid=1062391)[0m [4000]	valid_set's binary_logloss: 0.549693
+[36m(_ray_fit pid=1062392)[0m [4000]	valid_set's binary_logloss: 0.536638
+[36m(_ray_fit pid=1062398)[0m [5000]	valid_set's binary_logloss: 0.524963
+[36m(_ray_fit pid=1062404)[0m [5000]	valid_set's binary_logloss: 0.540264
+[36m(_ray_fit pid=1062397)[0m [5000]	valid_set's binary_logloss: 0.53916
+[36m(_ray_fit pid=1062403)[0m [5000]	valid_set's binary_logloss: 0.540944
+[36m(_ray_fit pid=1062401)[0m [5000]	valid_set's binary_logloss: 0.53719
+[36m(_ray_fit pid=1062402)[0m [5000]	valid_set's binary_logloss: 0.532168
+[36m(_ray_fit pid=1062391)[0m [5000]	valid_set's binary_logloss: 0.548176
+[36m(_ray_fit pid=1062392)[0m [5000]	valid_set's binary_logloss: 0.535163
+[36m(_ray_fit pid=1062398)[0m [6000]	valid_set's binary_logloss: 0.52335
+[36m(_ray_fit pid=1062404)[0m [6000]	valid_set's binary_logloss: 0.53924
+[36m(_ray_fit pid=1062397)[0m [6000]	valid_set's binary_logloss: 0.53815
+[36m(_ray_fit pid=1062401)[0m [6000]	valid_set's binary_logloss: 0.536077[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1062392)[0m [6000]	valid_set's binary_logloss: 0.534357[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062398)[0m [7000]	valid_set's binary_logloss: 0.52248
+[36m(_ray_fit pid=1062403)[0m [7000]	valid_set's binary_logloss: 0.539529
+[36m(_ray_fit pid=1062401)[0m [7000]	valid_set's binary_logloss: 0.535704[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062391)[0m [7000]	valid_set's binary_logloss: 0.547272[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062392)[0m [7000]	valid_set's binary_logloss: 0.534236[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062398)[0m [8000]	valid_set's binary_logloss: 0.521874
+[36m(_ray_fit pid=1062397)[0m [8000]	valid_set's binary_logloss: 0.53711
+[36m(_ray_fit pid=1062403)[0m [8000]	valid_set's binary_logloss: 0.539253[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1062392)[0m [8000]	valid_set's binary_logloss: 0.533933
+[36m(_ray_fit pid=1062391)[0m [8000]	valid_set's binary_logloss: 0.547362
+[36m(_ray_fit pid=1062398)[0m [9000]	valid_set's binary_logloss: 0.521246[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1062401)[0m [9000]	valid_set's binary_logloss: 0.535644
+[36m(_ray_fit pid=1062391)[0m [9000]	valid_set's binary_logloss: 0.547656
+[36m(_ray_fit pid=1062392)[0m [9000]	valid_set's binary_logloss: 0.534246[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1062403)[0m [9000]	valid_set's binary_logloss: 0.539273
+[36m(_ray_fit pid=1062402)[0m [9000]	valid_set's binary_logloss: 0.530369
+[36m(_ray_fit pid=1062398)[0m [10000]	valid_set's binary_logloss: 0.521299
+[36m(_ray_fit pid=1062401)[0m [10000]	valid_set's binary_logloss: 0.535853
+[36m(_ray_fit pid=1062404)[0m [10000]	valid_set's binary_logloss: 0.537754
+[36m(_ray_fit pid=1062397)[0m [10000]	valid_set's binary_logloss: 0.537343
+[36m(_ray_fit pid=1062403)[0m [10000]	valid_set's binary_logloss: 0.539517
+[36m(_ray_fit pid=1062402)[0m [10000]	valid_set's binary_logloss: 0.530265
+[36m(_ray_fit pid=1105561)[0m [1000]	valid_set's binary_logloss: 0.53239
+[36m(_ray_fit pid=1105560)[0m [1000]	valid_set's binary_logloss: 0.541904
+[36m(_ray_fit pid=1105559)[0m [1000]	valid_set's binary_logloss: 0.53689[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=1105561)[0m [2000]	valid_set's binary_logloss: 0.529558[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1105566)[0m [2000]	valid_set's binary_logloss: 0.541128[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1105559)[0m [2000]	valid_set's binary_logloss: 0.53486[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1105560)[0m [3000]	valid_set's binary_logloss: 0.540173[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1105566)[0m [3000]	valid_set's binary_logloss: 0.541117[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1105561)[0m [4000]	valid_set's binary_logloss: 0.528571[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=1121177)[0m [1000]	valid_set's binary_logloss: 0.537935[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1121180)[0m [1000]	valid_set's binary_logloss: 0.525108[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1121173)[0m [1000]	valid_set's binary_logloss: 0.534139
+[36m(_ray_fit pid=1127460)[0m [1000]	valid_set's binary_logloss: 0.534766
+[36m(_ray_fit pid=1127463)[0m [1000]	valid_set's binary_logloss: 0.538942[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1127457)[0m [1000]	valid_set's binary_logloss: 0.54908
+[36m(_ray_fit pid=1127462)[0m [1000]	valid_set's binary_logloss: 0.546803
+[36m(_ray_fit pid=1127461)[0m [2000]	valid_set's binary_logloss: 0.540482[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=1127463)[0m [2000]	valid_set's binary_logloss: 0.535742
+[36m(_ray_fit pid=1127457)[0m [2000]	valid_set's binary_logloss: 0.544979
+[36m(_ray_fit pid=1127458)[0m [2000]	valid_set's binary_logloss: 0.55303[32m [repeated 4x across cluster][0m
+[36m(_ray_fit pid=1127463)[0m [3000]	valid_set's binary_logloss: 0.534135[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1127457)[0m [3000]	valid_set's binary_logloss: 0.542726[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1127458)[0m [3000]	valid_set's binary_logloss: 0.551113[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1127463)[0m [4000]	valid_set's binary_logloss: 0.533939[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1127464)[0m [3000]	valid_set's binary_logloss: 0.540307[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1127460)[0m [6000]	valid_set's binary_logloss: 0.529308[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1127458)[0m [5000]	valid_set's binary_logloss: 0.552309[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1127464)[0m [4000]	valid_set's binary_logloss: 0.539833[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1127461)[0m [7000]	valid_set's binary_logloss: 0.538291
+[36m(_ray_fit pid=1127464)[0m [5000]	valid_set's binary_logloss: 0.539988
+[36m(_ray_fit pid=1143888)[0m [1000]	valid_set's binary_logloss: 0.528008[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1143885)[0m [1000]	valid_set's binary_logloss: 0.541292
+[36m(_ray_fit pid=1143887)[0m [1000]	valid_set's binary_logloss: 0.53215
+[36m(_ray_fit pid=1143886)[0m [1000]	valid_set's binary_logloss: 0.535947[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=1143889)[0m [1000]	valid_set's binary_logloss: 0.547809
+[36m(_ray_fit pid=1143884)[0m [1000]	valid_set's binary_logloss: 0.539424
+[36m(_ray_fit pid=1143888)[0m [2000]	valid_set's binary_logloss: 0.52252
+[36m(_ray_fit pid=1143885)[0m [2000]	valid_set's binary_logloss: 0.535736
+[36m(_ray_fit pid=1143887)[0m [2000]	valid_set's binary_logloss: 0.527968
+[36m(_ray_fit pid=1143890)[0m [2000]	valid_set's binary_logloss: 0.537034
+[36m(_ray_fit pid=1143883)[0m [2000]	valid_set's binary_logloss: 0.535211
+[36m(_ray_fit pid=1143886)[0m [2000]	valid_set's binary_logloss: 0.532895
+[36m(_ray_fit pid=1143884)[0m [2000]	valid_set's binary_logloss: 0.535517
+[36m(_ray_fit pid=1143889)[0m [2000]	valid_set's binary_logloss: 0.54399
+[36m(_ray_fit pid=1143888)[0m [3000]	valid_set's binary_logloss: 0.521352
+[36m(_ray_fit pid=1143885)[0m [3000]	valid_set's binary_logloss: 0.534114
+[36m(_ray_fit pid=1143883)[0m [3000]	valid_set's binary_logloss: 0.53437
+[36m(_ray_fit pid=1143887)[0m [3000]	valid_set's binary_logloss: 0.528106
+[36m(_ray_fit pid=1143890)[0m [3000]	valid_set's binary_logloss: 0.53627[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1143884)[0m [3000]	valid_set's binary_logloss: 0.534451
+[36m(_ray_fit pid=1143889)[0m [3000]	valid_set's binary_logloss: 0.543973
+[36m(_ray_fit pid=1143888)[0m [4000]	valid_set's binary_logloss: 0.52097
+[36m(_ray_fit pid=1143883)[0m [4000]	valid_set's binary_logloss: 0.534529
+[36m(_ray_fit pid=1143886)[0m [4000]	valid_set's binary_logloss: 0.532772[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1191907)[0m [1000]	valid_set's binary_logloss: 0.537604
+[36m(_ray_fit pid=1191906)[0m [1000]	valid_set's binary_logloss: 0.535768
+[36m(_ray_fit pid=1191909)[0m [1000]	valid_set's binary_logloss: 0.548407[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1191912)[0m [1000]	valid_set's binary_logloss: 0.53567[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1191911)[0m [1000]	valid_set's binary_logloss: 0.529722
+[36m(_ray_fit pid=1191913)[0m [1000]	valid_set's binary_logloss: 0.534737
+[36m(_ray_fit pid=1272663)[0m [1000]	valid_set's binary_logloss: 0.527521
+[36m(_ray_fit pid=1272664)[0m [1000]	valid_set's binary_logloss: 0.516956
+[36m(_ray_fit pid=1331676)[0m [1000]	valid_set's binary_logloss: 0.528124[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1331649)[0m [1000]	valid_set's binary_logloss: 0.529316
+[36m(_ray_fit pid=1331662)[0m [1000]	valid_set's binary_logloss: 0.519356
+[36m(_ray_fit pid=1331659)[0m [1000]	valid_set's binary_logloss: 0.521235
+[36m(_ray_fit pid=1331671)[0m [1000]	valid_set's binary_logloss: 0.519576
+[36m(_ray_fit pid=1331673)[0m [1000]	valid_set's binary_logloss: 0.516398[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=1331653)[0m [1000]	valid_set's binary_logloss: 0.532228
+*** Summary of fit() ***
+Estimated performance of each model:
+                           model  score_val eval_metric  pred_time_val      fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0            WeightedEnsemble_L3   0.815858     roc_auc     104.405782  11821.187653                0.005595           9.926681            3       True        178
+1     NeuralNetFastAI_r37_BAG_L2   0.814987     roc_auc      91.292340   9975.788527                0.931491         253.718467            2       True        133
+2    NeuralNetFastAI_r143_BAG_L2   0.814859     roc_auc      91.216914   9836.953478                0.856066         114.883419            2       True        123
+3     NeuralNetFastAI_r11_BAG_L2   0.814857     roc_auc      93.159152  10329.531436                2.798303         607.461376            2       True        117
+4    NeuralNetFastAI_r103_BAG_L2   0.814816     roc_auc      92.190806  10127.865396                1.829957         405.795336            2       True        121
+5            WeightedEnsemble_L2   0.814809     roc_auc      15.550452   2752.986899                0.005600           8.889415            2       True         90
+6            LightGBM_r94_BAG_L2   0.814755     roc_auc      90.620818   9738.155034                0.259970          16.084974            2       True        140
+7            LightGBM_r96_BAG_L2   0.814749     roc_auc      90.909840   9761.621835                0.548991          39.551776            2       True        105
+8            CatBoost_r13_BAG_L2   0.814645     roc_auc      90.474012   9744.603064                0.113163          22.533004            2       True        110
+9           LightGBM_r196_BAG_L2   0.814631     roc_auc      92.138626  10062.077306                1.777777         340.007246            2       True        126
+10    NeuralNetFastAI_r88_BAG_L2   0.814620     roc_auc      91.104505   9836.422582                0.743656         114.352523            2       True        145
+11   NeuralNetFastAI_r111_BAG_L2   0.814619     roc_auc      90.828561   9767.870871                0.467712          45.800812            2       True        142
+12             LightGBMXT_BAG_L2   0.814608     roc_auc      90.591797   9737.226677                0.230948          15.156617            2       True         91
+13           CatBoost_r12_BAG_L2   0.814569     roc_auc      90.476709   9730.209099                0.115861           8.139039            2       True        168
+14          LightGBM_r131_BAG_L2   0.814497     roc_auc      90.932824   9778.067155                0.571975          55.997096            2       True        102
+15           LightGBM_r15_BAG_L2   0.814475     roc_auc      90.598922   9744.658414                0.238073          22.588355            2       True        131
+16           CatBoost_r60_BAG_L2   0.814475     roc_auc      90.439368   9726.857758                0.078520           4.787699            2       True        154
+17            CatBoost_r5_BAG_L2   0.814460     roc_auc      90.447884   9726.600987                0.087036           4.530927            2       True        148
+18   NeuralNetFastAI_r172_BAG_L2   0.814451     roc_auc      91.168292   9845.557406                0.807443         123.487347            2       True        162
+19            XGBoost_r98_BAG_L2   0.814434     roc_auc      91.204321   9782.121948                0.843472          60.051888            2       True        130
+20            XGBoost_r31_BAG_L2   0.814421     roc_auc      91.093657   9752.670564                0.732808          30.600505            2       True        152
+21          CatBoost_r167_BAG_L2   0.814412     roc_auc      90.453007   9726.392220                0.092158           4.322161            2       True        128
+22   NeuralNetFastAI_r160_BAG_L2   0.814406     roc_auc      93.034737  10153.543147                2.673888         431.473088            2       True        153
+23    NeuralNetFastAI_r69_BAG_L2   0.814391     roc_auc      92.204784  10060.831470                1.843936         338.761410            2       True        158
+24   NeuralNetFastAI_r127_BAG_L2   0.814384     roc_auc      91.278659   9788.507463                0.917810          66.437403            2       True        165
+25          CatBoost_r137_BAG_L2   0.814355     roc_auc      90.464999   9727.426703                0.104151           5.356644            2       True        108
+26            XGBoost_r22_BAG_L2   0.814314     roc_auc      90.868555   9728.811861                0.507706           6.741802            2       True        157
+27     NeuralNetFastAI_r4_BAG_L2   0.814310     roc_auc      91.095807   9916.761294                0.734958         194.691235            2       True        169
+28   NeuralNetFastAI_r187_BAG_L2   0.814302     roc_auc      91.145502   9848.182301                0.784654         126.112242            2       True        174
+29            XGBoost_r95_BAG_L2   0.814296     roc_auc      90.929544   9729.047043                0.568696           6.976983            2       True        175
+30           CatBoost_r70_BAG_L2   0.814294     roc_auc      90.547763   9732.165101                0.186914          10.095042            2       True        124
+31          CatBoost_r143_BAG_L2   0.814276     roc_auc      90.451088   9726.547193                0.090240           4.477134            2       True        149
+32               CatBoost_BAG_L2   0.814200     roc_auc      90.463934   9726.905316                0.103085           4.835257            2       True         95
+33           CatBoost_r69_BAG_L2   0.814194     roc_auc      90.477734   9727.160181                0.116886           5.090122            2       True        120
+34            CatBoost_r9_BAG_L2   0.814190     roc_auc      90.597574   9742.529927                0.236725          20.459867            2       True        104
+35           LightGBM_r30_BAG_L2   0.814143     roc_auc      91.269399   9891.211722                0.908551         169.141663            2       True        146
+36          CatBoost_r198_BAG_L2   0.814139     roc_auc      90.485163   9728.567523                0.124314           6.497463            2       True        173
+37            XGBoost_r49_BAG_L2   0.814124     roc_auc      91.076825   9734.435800                0.715976          12.365740            2       True        147
+38           CatBoost_r49_BAG_L2   0.814115     roc_auc      90.477361   9726.527687                0.116513           4.457628            2       True        134
+39            CatBoost_r6_BAG_L2   0.814102     roc_auc      90.463487   9726.167833                0.102638           4.097773            2       True        159
+40          CatBoost_r177_BAG_L2   0.814096     roc_auc      90.458549   9726.425077                0.097701           4.355017            2       True        101
+41   NeuralNetFastAI_r194_BAG_L2   0.814063     roc_auc      92.192324   9975.390771                1.831475         253.320711            2       True        167
+42          LightGBM_r121_BAG_L2   0.814047     roc_auc      91.131523   9915.549858                0.770674         193.479799            2       True        161
+43           CatBoost_r86_BAG_L2   0.814047     roc_auc      90.453980   9731.150594                0.093131           9.080534            2       True        132
+44   NeuralNetFastAI_r145_BAG_L2   0.814034     roc_auc      94.043275  10382.598160                3.682427         660.528100            2       True        113
+45            XGBoost_r89_BAG_L2   0.814029     roc_auc      90.984547   9728.116334                0.623699           6.046274            2       True        114
+46          CatBoost_r128_BAG_L2   0.814015     roc_auc      90.589626   9742.997340                0.228777          20.927280            2       True        141
+47          CatBoost_r163_BAG_L2   0.814010     roc_auc      90.445315   9725.011203                0.084466           2.941143            2       True        172
+48        NeuralNetFastAI_BAG_L2   0.813989     roc_auc      91.610301   9937.065874                1.249452         214.995814            2       True         98
+49           CatBoost_r50_BAG_L2   0.813951     roc_auc      90.482537   9725.752643                0.121688           3.682584            2       True        116
+50               LightGBM_BAG_L2   0.813945     roc_auc      90.502101   9735.814556                0.141253          13.744497            2       True         92
+51                XGBoost_BAG_L2   0.813919     roc_auc      91.036334   9728.670284                0.675485           6.600224            2       True         99
+52          LightGBM_r161_BAG_L2   0.813828     roc_auc      91.135062   9906.076236                0.774213         184.006176            2       True        122
+53       RandomForest_r34_BAG_L2   0.813823     roc_auc      91.704140   9746.162599                1.343291          24.092539            2       True        139
+54          ExtraTrees_r4_BAG_L2   0.813783     roc_auc      91.786548   9724.305101                1.425699           2.235042            2       True        143
+55          LightGBM_r188_BAG_L2   0.813765     roc_auc      90.720652   9766.538673                0.359803          44.468614            2       True        112
+56    NeuralNetFastAI_r95_BAG_L2   0.813752     roc_auc      93.100572  10310.829579                2.739723         588.759520            2       True        129
+57          CatBoost_r180_BAG_L2   0.813737     roc_auc      90.535549   9732.252809                0.174700          10.182749            2       True        163
+58   NeuralNetFastAI_r102_BAG_L2   0.813691     roc_auc      90.931746   9772.316186                0.570898          50.246127            2       True        109
+59            XGBoost_r33_BAG_L2   0.813649     roc_auc      91.285180   9754.974914                0.924332          32.904855            2       True        106
+60    NeuralNetFastAI_r65_BAG_L2   0.813539     roc_auc      91.392455   9806.935561                1.031606          84.865502            2       True        144
+61          LightGBMLarge_BAG_L2   0.813536     roc_auc      90.654556   9770.172588                0.293707          48.102529            2       True        100
+62          LightGBM_r130_BAG_L2   0.813490     roc_auc      90.612312   9750.300075                0.251463          28.230016            2       True        115
+63          LightGBM_r143_BAG_L2   0.813281     roc_auc      90.891375   9843.155980                0.530526         121.085920            2       True        136
+64           XGBoost_r194_BAG_L2   0.813218     roc_auc      90.613213   9730.423558                0.252364           8.353499            2       True        118
+65   NeuralNetFastAI_r191_BAG_L2   0.813188     roc_auc      91.752316  10062.792981                1.391468         340.722922            2       True        103
+66   NeuralNetFastAI_r138_BAG_L2   0.812977     roc_auc      93.604413  10379.993524                3.243565         657.923465            2       True        160
+67            XGBoost_r34_BAG_L2   0.812870     roc_auc      90.958695   9743.263234                0.597846          21.193175            2       True        176
+68           LightGBM_r42_BAG_L2   0.812512     roc_auc      90.552240   9763.645999                0.191391          41.575940            2       True        177
+69          LightGBM_r135_BAG_L2   0.812310     roc_auc      90.651224   9784.292907                0.290375          62.222848            2       True        156
+70        ExtraTrees_r172_BAG_L2   0.811870     roc_auc      92.022850   9725.279356                1.662001           3.209297            2       True        119
+71   NeuralNetFastAI_r134_BAG_L2   0.811789     roc_auc      91.243561   9814.773199                0.882712          92.703140            2       True        138
+72        ExtraTrees_r126_BAG_L2   0.811496     roc_auc      92.214219   9722.892933                1.853370           0.822873            2       True        170
+73        ExtraTrees_r178_BAG_L2   0.811482     roc_auc      92.020157   9724.464443                1.659308           2.394384            2       True        150
+74   NeuralNetFastAI_r156_BAG_L2   0.811390     roc_auc      90.770360   9758.618944                0.409512          36.548884            2       True        125
+75       RandomForestEntr_BAG_L2   0.810931     roc_auc      92.062158   9727.749469                1.701310           5.679410            2       True         94
+76         ExtraTreesEntr_BAG_L2   0.810918     roc_auc      92.269672   9722.861157                1.908823           0.791097            2       True         97
+77      RandomForest_r127_BAG_L2   0.810396     roc_auc      91.936968   9770.043797                1.576119          47.973737            2       True        137
+78         ExtraTreesGini_BAG_L2   0.810103     roc_auc      92.280060   9722.883811                1.919211           0.813752            2       True         96
+79         ExtraTrees_r49_BAG_L2   0.810103     roc_auc      92.297626   9722.944798                1.936777           0.874738            2       True        135
+80       RandomForest_r15_BAG_L2   0.809136     roc_auc      91.980496   9759.710973                1.619648          37.640913            2       True        155
+81        ExtraTrees_r197_BAG_L2   0.809081     roc_auc      92.140029   9725.997447                1.779180           3.927388            2       True        164
+82   NeuralNetFastAI_r100_BAG_L2   0.808907     roc_auc      91.433572   9804.869783                1.072724          82.799723            2       True        171
+83      RandomForest_r166_BAG_L2   0.808792     roc_auc      92.134424   9725.508359                1.773576           3.438299            2       True        151
+84         ExtraTrees_r42_BAG_L2   0.808722     roc_auc      92.150280   9724.921186                1.789432           2.851126            2       True        107
+85       RandomForestGini_BAG_L2   0.808279     roc_auc      92.114666   9727.169955                1.753817           5.099895            2       True         93
+86       RandomForest_r39_BAG_L2   0.808258     roc_auc      92.038585   9761.622025                1.677736          39.551965            2       True        127
+87      RandomForest_r195_BAG_L2   0.806532     roc_auc      92.076202   9765.026829                1.715353          42.956770            2       True        111
+88       RandomForest_r16_BAG_L2   0.806460     roc_auc      92.074615   9779.910236                1.713766          57.840176            2       True        166
+89           CatBoost_r13_BAG_L1   0.806415     roc_auc       0.137944     69.768984                0.137944          69.768984            1       True         22
+90           LightGBM_r30_BAG_L1   0.806089     roc_auc       4.742253    744.574703                4.742253         744.574703            1       True         58
+91           CatBoost_r86_BAG_L1   0.805192     roc_auc       0.104244     31.105775                0.104244          31.105775            1       True         44
+92   NeuralNetFastAI_r187_BAG_L1   0.804958     roc_auc       0.548169    106.930797                0.548169         106.930797            1       True         86
+93           CatBoost_r12_BAG_L1   0.804885     roc_auc       0.099097     31.862638                0.099097          31.862638            1       True         80
+94    NeuralNetFastAI_r69_BAG_L1   0.804846     roc_auc       2.557071    360.028080                2.557071         360.028080            1       True         70
+95            XGBoost_r98_BAG_L1   0.804738     roc_auc       1.737280    117.137583                1.737280         117.137583            1       True         42
+96          LightGBM_r161_BAG_L1   0.804734     roc_auc       2.296368    631.150098                2.296368         631.150098            1       True         34
+97          LightGBM_r121_BAG_L1   0.804603     roc_auc       1.908386    602.643242                1.908386         602.643242            1       True         73
+98          LightGBM_r135_BAG_L1   0.804389     roc_auc       0.698532    151.674840                0.698532         151.674840            1       True         68
+99            XGBoost_r33_BAG_L1   0.803788     roc_auc       1.448651     39.598503                1.448651          39.598503            1       True         18
+100           CatBoost_r9_BAG_L1   0.803785     roc_auc       0.269886     37.025358                0.269886          37.025358            1       True         16
+101         LightGBM_r196_BAG_L1   0.803742     roc_auc      17.333467   2030.906952               17.333467        2030.906952            1       True         38
+102         LightGBM_r131_BAG_L1   0.803627     roc_auc       1.894296    289.934832                1.894296         289.934832            1       True         14
+103         LightGBM_r143_BAG_L1   0.803618     roc_auc       1.271502    296.283343                1.271502         296.283343            1       True         48
+104              CatBoost_BAG_L1   0.803602     roc_auc       0.082830     21.868804                0.082830          21.868804            1       True          7
+105         CatBoost_r198_BAG_L1   0.803560     roc_auc       0.115771     23.820150                0.115771          23.820150            1       True         85
+106         LightGBM_r188_BAG_L1   0.803452     roc_auc       1.010082    232.810850                1.010082         232.810850            1       True         24
+107  NeuralNetFastAI_r194_BAG_L1   0.803305     roc_auc       1.557083    226.162922                1.557083         226.162922            1       True         79
+108   NeuralNetFastAI_r37_BAG_L1   0.803291     roc_auc       0.928891    233.529208                0.928891         233.529208            1       True         45
+109         CatBoost_r177_BAG_L1   0.803072     roc_auc       0.086518     13.548929                0.086518          13.548929            1       True         13
+110         CatBoost_r128_BAG_L1   0.802755     roc_auc       0.259298     27.255182                0.259298          27.255182            1       True         53
+111           XGBoost_r49_BAG_L1   0.802622     roc_auc       0.596773     21.766910                0.596773          21.766910            1       True         59
+112         CatBoost_r143_BAG_L1   0.802557     roc_auc       0.076525     13.991073                0.076525          13.991073            1       True         61
+113         LightGBMLarge_BAG_L1   0.802549     roc_auc       0.508165    100.341245                0.508165         100.341245            1       True         12
+114            LightGBMXT_BAG_L1   0.802536     roc_auc       0.738193     87.574820                0.738193          87.574820            1       True          3
+115          LightGBM_r96_BAG_L1   0.802528     roc_auc       5.140646    288.067637                5.140646         288.067637            1       True         17
+116           XGBoost_r34_BAG_L1   0.802415     roc_auc       0.914019     29.130641                0.914019          29.130641            1       True         88
+117          CatBoost_r69_BAG_L1   0.802340     roc_auc       0.087178     21.620989                0.087178          21.620989            1       True         32
+118         LightGBM_r130_BAG_L1   0.802329     roc_auc       0.345296     52.140051                0.345296          52.140051            1       True         27
+119         CatBoost_r167_BAG_L1   0.802105     roc_auc       0.078492      9.790656                0.078492           9.790656            1       True         40
+120          CatBoost_r60_BAG_L1   0.801906     roc_auc       0.084146     21.724392                0.084146          21.724392            1       True         66
+121          CatBoost_r70_BAG_L1   0.801717     roc_auc       0.199795     21.542548                0.199795          21.542548            1       True         36
+122         CatBoost_r180_BAG_L1   0.801611     roc_auc       0.151080     15.047986                0.151080          15.047986            1       True         75
+123         CatBoost_r163_BAG_L1   0.801443     roc_auc       0.058971      9.988083                0.058971           9.988083            1       True         84
+124          LightGBM_r15_BAG_L1   0.800689     roc_auc       1.176817    131.293505                1.176817         131.293505            1       True         43
+125          CatBoost_r49_BAG_L1   0.800569     roc_auc       0.088132     22.287383                0.088132          22.287383            1       True         46
+126  NeuralNetFastAI_r103_BAG_L1   0.800529     roc_auc       1.537336    369.114743                1.537336         369.114743            1       True         33
+127  NeuralNetFastAI_r145_BAG_L1   0.800526     roc_auc       2.755176    621.638973                2.755176         621.638973            1       True         25
+128              LightGBM_BAG_L1   0.800453     roc_auc       0.288535     37.147864                0.288535          37.147864            1       True          4
+129           CatBoost_r5_BAG_L1   0.800431     roc_auc       0.088373     23.534545                0.088373          23.534545            1       True         60
+130         CatBoost_r137_BAG_L1   0.800379     roc_auc       0.100625     25.450536                0.100625          25.450536            1       True         20
+131          LightGBM_r94_BAG_L1   0.800272     roc_auc       1.806862    131.537725                1.806862         131.537725            1       True         52
+132          XGBoost_r194_BAG_L1   0.800209     roc_auc       0.165120      8.407128                0.165120           8.407128            1       True         30
+133  NeuralNetFastAI_r111_BAG_L1   0.800162     roc_auc       0.440563     40.731375                0.440563          40.731375            1       True         54
+134               XGBoost_BAG_L1   0.799693     roc_auc       0.289407      8.697206                0.289407           8.697206            1       True         11
+135           XGBoost_r22_BAG_L1   0.799486     roc_auc       0.360265     10.869148                0.360265          10.869148            1       True         69
+136           XGBoost_r95_BAG_L1   0.799260     roc_auc       0.415603     13.698434                0.415603          13.698434            1       True         87
+137  NeuralNetFastAI_r127_BAG_L1   0.799119     roc_auc       0.443397     57.299479                0.443397          57.299479            1       True         77
+138           XGBoost_r89_BAG_L1   0.799006     roc_auc       0.308162     10.551952                0.308162          10.551952            1       True         26
+139          CatBoost_r50_BAG_L1   0.798425     roc_auc       0.167271     13.994833                0.167271          13.994833            1       True         28
+140           XGBoost_r31_BAG_L1   0.798397     roc_auc       2.114020    136.693506                2.114020         136.693506            1       True         64
+141           CatBoost_r6_BAG_L1   0.798127     roc_auc       0.162933     10.739458                0.162933          10.739458            1       True         71
+142  NeuralNetFastAI_r102_BAG_L1   0.797073     roc_auc       0.381694     43.043608                0.381694          43.043608            1       True         21
+143       NeuralNetFastAI_BAG_L1   0.796985     roc_auc       1.393511    230.259484                1.393511         230.259484            1       True         10
+144  NeuralNetFastAI_r160_BAG_L1   0.796863     roc_auc       2.515757    398.359058                2.515757         398.359058            1       True         65
+145  NeuralNetFastAI_r138_BAG_L1   0.796300     roc_auc       3.018280    732.398643                3.018280         732.398643            1       True         72
+146   NeuralNetFastAI_r95_BAG_L1   0.796017     roc_auc       2.197585    584.376788                2.197585         584.376788            1       True         41
+147  NeuralNetFastAI_r191_BAG_L1   0.795712     roc_auc       1.500289    406.381217                1.500289         406.381217            1       True         15
+148  NeuralNetFastAI_r172_BAG_L1   0.794834     roc_auc       0.598988     98.419546                0.598988          98.419546            1       True         74
+149          LightGBM_r42_BAG_L1   0.793862     roc_auc       0.597145    134.616118                0.597145         134.616118            1       True         89
+150  NeuralNetFastAI_r143_BAG_L1   0.793107     roc_auc       0.564714     98.191352                0.564714          98.191352            1       True         35
+151      RandomForestEntr_BAG_L1   0.792872     roc_auc       1.325246      2.972978                1.325246           2.972978            1       True          6
+152      RandomForest_r15_BAG_L1   0.791788     roc_auc       1.217847      8.949408                1.217847           8.949408            1       True         67
+153      RandomForest_r39_BAG_L1   0.790422     roc_auc       1.254092      9.116329                1.254092           9.116329            1       True         39
+154       ExtraTrees_r172_BAG_L1   0.790105     roc_auc       1.268705      1.280474                1.268705           1.280474            1       True         31
+155     RandomForest_r127_BAG_L1   0.789923     roc_auc       1.160607     11.146578                1.160607          11.146578            1       True         49
+156       ExtraTrees_r178_BAG_L1   0.788916     roc_auc       1.290974      1.002215                1.290974           1.002215            1       True         62
+157      RandomForest_r34_BAG_L1   0.788792     roc_auc       0.924376      6.380642                0.924376           6.380642            1       True         51
+158      RandomForestGini_BAG_L1   0.788590     roc_auc       1.357033      2.582291                1.357033           2.582291            1       True          5
+159     RandomForest_r195_BAG_L1   0.788466     roc_auc       1.282999      9.629565                1.282999           9.629565            1       True         23
+160   NeuralNetFastAI_r11_BAG_L1   0.788409     roc_auc       2.905427    533.689203                2.905427         533.689203            1       True         29
+161       ExtraTrees_r197_BAG_L1   0.787862     roc_auc       1.403015      1.500514                1.403015           1.500514            1       True         76
+162     RandomForest_r166_BAG_L1   0.787476     roc_auc       1.374726      2.100342                1.374726           2.100342            1       True         63
+163  NeuralNetFastAI_r134_BAG_L1   0.787047     roc_auc       0.874850     99.266065                0.874850          99.266065            1       True         50
+164        ExtraTrees_r42_BAG_L1   0.786913     roc_auc       1.420053      1.219562                1.420053           1.219562            1       True         19
+165      RandomForest_r16_BAG_L1   0.786383     roc_auc       1.281313     12.965606                1.281313          12.965606            1       True         78
+166         ExtraTrees_r4_BAG_L1   0.784870     roc_auc       1.009623      0.939710                1.009623           0.939710            1       True         55
+167  NeuralNetFastAI_r156_BAG_L1   0.779604     roc_auc       0.378329     53.627004                0.378329          53.627004            1       True         37
+168    NeuralNetFastAI_r4_BAG_L1   0.779487     roc_auc       0.712829    212.449338                0.712829         212.449338            1       True         81
+169   NeuralNetFastAI_r88_BAG_L1   0.778645     roc_auc       0.451692     73.695010                0.451692          73.695010            1       True         57
+170  NeuralNetFastAI_r100_BAG_L1   0.775343     roc_auc       0.620533    105.095828                0.620533         105.095828            1       True         83
+171       ExtraTrees_r126_BAG_L1   0.765133     roc_auc       1.520889      0.663217                1.520889           0.663217            1       True         82
+172        ExtraTreesEntr_BAG_L1   0.763188     roc_auc       1.609229      0.653040                1.609229           0.653040            1       True          9
+173        ExtraTrees_r49_BAG_L1   0.761273     roc_auc       1.607636      0.689411                1.607636           0.689411            1       True         47
+174        ExtraTreesGini_BAG_L1   0.761273     roc_auc       1.653692      0.674133                1.653692           0.674133            1       True          8
+175   NeuralNetFastAI_r65_BAG_L1   0.749919     roc_auc       0.290087     63.972229                0.290087          63.972229            1       True         56
+176        KNeighborsDist_BAG_L1   0.611749     roc_auc       0.295194      0.032890                0.295194           0.032890            1       True          2
+177        KNeighborsUnif_BAG_L1   0.606866     roc_auc       0.308261      0.038233                0.308261           0.038233            1       True          1
+Number of models trained: 178
+Types of models trained:
+{'StackerEnsembleModel_CatBoost', 'StackerEnsembleModel_RF', 'WeightedEnsembleModel', 'StackerEnsembleModel_XT', 'StackerEnsembleModel_XGBoost', 'StackerEnsembleModel_KNN', 'StackerEnsembleModel_LGB', 'StackerEnsembleModel_NNFastAiTabular'}
+Bagging used: True  (with 8 folds)
+Multi-layer stack-ensembling used: True  (with 3 levels)
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', []) : 28 | ['f0', 'f1', 'f2', 'f3', 'f4', ...]
+Plot summary of models saved to file: /home/echung32/koa_scratch/models2SummaryOfModels.html
+*** End of fit() summary ***
+         f0        f1        f2  ...       f25       f26       f27
+0  0.717945 -1.166869 -1.713655  ...  1.987294  1.445221  1.479203
+1  0.924379 -0.015638  0.213483  ...  0.356333  0.574508  0.560475
+2  1.473040 -0.355553 -0.290433  ...  1.079056  1.422562  1.214204
+3  0.908091  0.421674  1.426965  ...  0.821368  0.821826  0.715383
+4  1.639761  0.916450 -0.925197  ...  0.659052  0.813507  0.830104
+
+[5 rows x 28 columns]
+          0         1
+0  0.942905  0.057095
+1  0.630712  0.369288
+2  0.230671  0.769329
+3  0.172148  0.827852
+4  0.414488  0.585512
+[[0.         0.0570954 ]
+ [1.         0.36928815]
+ [2.         0.76932919]
+ [3.         0.82785249]
+ [4.         0.58551192]]

@@ -1,0 +1,1362 @@
+[36m(_ray_fit pid=618080)[0m [1000]	valid_set's binary_logloss: 0.535949
+[36m(_ray_fit pid=619349)[0m [1000]	valid_set's binary_logloss: 0.537065[32m [repeated 9x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(_ray_fit pid=619979)[0m [1000]	valid_set's binary_logloss: 0.553398[32m [repeated 2x across cluster][0m
+[36m(_ray_fit pid=619978)[0m [3000]	valid_set's binary_logloss: 0.538512[32m [repeated 17x across cluster][0m
+[36m(_ray_fit pid=619977)[0m [5000]	valid_set's binary_logloss: 0.538125[32m [repeated 18x across cluster][0m
+[36m(_ray_fit pid=619979)[0m [10000]	valid_set's binary_logloss: 0.535675[32m [repeated 21x across cluster][0m
+[36m(_ray_fit pid=619981)[0m [7000]	valid_set's binary_logloss: 0.533676[32m [repeated 13x across cluster][0m
+[36m(_ray_fit pid=619981)[0m [10000]	valid_set's binary_logloss: 0.533891[32m [repeated 3x across cluster][0m
+[36m(_ray_fit pid=623170)[0m [1000]	valid_set's binary_logloss: 0.535471
+[36m(_ray_fit pid=623164)[0m [1000]	valid_set's binary_logloss: 0.550412
+[36m(_ray_fit pid=623167)[0m [2000]	valid_set's binary_logloss: 0.537067[32m [repeated 14x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetFastAI_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator    │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler            │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                        │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetFastAI_BAG_L1
+[36m(_ray_fit pid=623166)[0m [4000]	valid_set's binary_logloss: 0.524751[32m [repeated 10x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator   │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler           │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                       │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r79_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r79_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=652036)[0m [1000]	valid_set's binary_logloss: 0.541343
+[36m(_ray_fit pid=654044)[0m [1000]	valid_set's binary_logloss: 0.542247[32m [repeated 11x across cluster][0m
+[36m(_ray_fit pid=654044)[0m [9000]	valid_set's binary_logloss: 0.528683[32m [repeated 35x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r22_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r22_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=654037)[0m [10000]	valid_set's binary_logloss: 0.539473[32m [repeated 12x across cluster][0m
+[36m(_ray_fit pid=663412)[0m [1000]	valid_set's binary_logloss: 0.528267
+[36m(_ray_fit pid=663416)[0m [1000]	valid_set's binary_logloss: 0.540695
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r30_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r30_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r86_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r86_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r14_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r14_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=685841)[0m [1000]	valid_set's binary_logloss: 0.540762
+[36m(_ray_fit pid=688566)[0m [1000]	valid_set's binary_logloss: 0.565239[32m [repeated 5x across cluster][0m
+[36m(_ray_fit pid=688566)[0m [3000]	valid_set's binary_logloss: 0.544759[32m [repeated 10x across cluster][0m
+[36m(_ray_fit pid=688567)[0m [5000]	valid_set's binary_logloss: 0.528491[32m [repeated 10x across cluster][0m
+[36m(_ray_fit pid=688569)[0m [6000]	valid_set's binary_logloss: 0.539678[32m [repeated 10x across cluster][0m
+[36m(_ray_fit pid=688569)[0m [8000]	valid_set's binary_logloss: 0.53945[32m [repeated 11x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r41_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r41_BAG_L1
+[36m(_ray_fit pid=688570)[0m [10000]	valid_set's binary_logloss: 0.53912[32m [repeated 5x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=696602)[0m [1000]	valid_set's binary_logloss: 0.544901
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r158_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r158_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=696599)[0m [3000]	valid_set's binary_logloss: 0.531273[32m [repeated 11x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r197_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r197_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=710992)[0m [1000]	valid_set's binary_logloss: 0.528507
+[36m(_ray_fit pid=712344)[0m [1000]	valid_set's binary_logloss: 0.547623
+[36m(_ray_fit pid=712341)[0m [1000]	valid_set's binary_logloss: 0.546667
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r143_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r143_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=712340)[0m [5000]	valid_set's binary_logloss: 0.530705[32m [repeated 16x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r31_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r31_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=727126)[0m [1000]	valid_set's binary_logloss: 0.542266
+[36m(_ray_fit pid=727124)[0m [3000]	valid_set's binary_logloss: 0.53506[32m [repeated 10x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r87_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r87_BAG_L1
+[36m(_ray_fit pid=727128)[0m [3000]	valid_set's binary_logloss: 0.537423[32m [repeated 3x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r71_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r71_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r185_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r185_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=752288)[0m [1000]	valid_set's binary_logloss: 0.525852
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r76_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r76_BAG_L1
+[36m(_ray_fit pid=752291)[0m [1000]	valid_set's binary_logloss: 0.537902[32m [repeated 4x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r121_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r121_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r135_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r135_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r36_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r36_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r19_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r19_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭─────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r1_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├─────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator      │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler              │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                          │
+[36m(_dystack pid=614618)[0m ╰─────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r1_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r89_BAG_L1   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r89_BAG_L1
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=803631)[0m [1000]	valid_set's binary_logloss: 0.517133
+[36m(_ray_fit pid=806825)[0m [1000]	valid_set's binary_logloss: 0.518591[32m [repeated 8x across cluster][0m
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetFastAI_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator    │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler            │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                        │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetFastAI_BAG_L2
+[36m(_ray_fit pid=806821)[0m [1000]	valid_set's binary_logloss: 0.525601[32m [repeated 5x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator   │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler           │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                       │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r79_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r79_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=838386)[0m [1000]	valid_set's binary_logloss: 0.513943
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r22_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r22_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r30_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r30_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r86_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r86_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r14_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r14_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_ray_fit pid=872655)[0m [1000]	valid_set's binary_logloss: 0.514243
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r41_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r41_BAG_L2
+[36m(_ray_fit pid=872656)[0m [1000]	valid_set's binary_logloss: 0.532036[32m [repeated 4x across cluster][0m
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r158_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r158_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r197_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r197_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r143_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r143_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r31_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r31_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r87_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r87_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r71_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r71_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r185_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r185_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r76_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r76_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r121_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r121_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭───────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r135_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├───────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator        │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler                │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                            │
+[36m(_dystack pid=614618)[0m ╰───────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r135_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r36_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r36_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r19_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r19_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭─────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r1_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├─────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator      │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler              │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                          │
+[36m(_dystack pid=614618)[0m ╰─────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r1_BAG_L2
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m ╭──────────────────────────────────────────────────────────────╮
+[36m(_dystack pid=614618)[0m │ Configuration for experiment     NeuralNetTorch_r89_BAG_L2   │
+[36m(_dystack pid=614618)[0m ├──────────────────────────────────────────────────────────────┤
+[36m(_dystack pid=614618)[0m │ Search algorithm                 BasicVariantGenerator       │
+[36m(_dystack pid=614618)[0m │ Scheduler                        FIFOScheduler               │
+[36m(_dystack pid=614618)[0m │ Number of trials                 5                           │
+[36m(_dystack pid=614618)[0m ╰──────────────────────────────────────────────────────────────╯
+[36m(_dystack pid=614618)[0m 
+[36m(_dystack pid=614618)[0m View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/ds_sub_fit/sub_fit_ho/models/NeuralNetTorch_r89_BAG_L2
+[36m(_dystack pid=614618)[0m 
+╭───────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetFastAI_BAG_L1   │
+├───────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator    │
+│ Scheduler                        FIFOScheduler            │
+│ Number of trials                 5                        │
+╰───────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetFastAI_BAG_L1
+
+╭──────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_BAG_L1   │
+├──────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator   │
+│ Scheduler                        FIFOScheduler           │
+│ Number of trials                 5                       │
+╰──────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r79_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r79_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r22_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r22_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r30_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r30_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r86_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r86_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r14_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r14_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r41_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r41_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r158_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r158_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r197_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r197_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r143_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r143_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r31_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r31_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r87_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r87_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r71_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r71_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r185_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r185_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r76_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r76_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r121_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r121_BAG_L1
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r135_BAG_L1   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r135_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r36_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r36_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r19_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r19_BAG_L1
+
+╭─────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r1_BAG_L1   │
+├─────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator      │
+│ Scheduler                        FIFOScheduler              │
+│ Number of trials                 5                          │
+╰─────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r1_BAG_L1
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r89_BAG_L1   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r89_BAG_L1
+
+╭───────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetFastAI_BAG_L2   │
+├───────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator    │
+│ Scheduler                        FIFOScheduler            │
+│ Number of trials                 5                        │
+╰───────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetFastAI_BAG_L2
+
+╭──────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_BAG_L2   │
+├──────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator   │
+│ Scheduler                        FIFOScheduler           │
+│ Number of trials                 5                       │
+╰──────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r79_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r79_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r22_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r22_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r30_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r30_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r86_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r86_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r14_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r14_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r41_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r41_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r158_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r158_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r197_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r197_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r143_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r143_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r31_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r31_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r87_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r87_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r71_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r71_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r185_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r185_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r76_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r76_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r121_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r121_BAG_L2
+
+╭───────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r135_BAG_L2   │
+├───────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator        │
+│ Scheduler                        FIFOScheduler                │
+│ Number of trials                 5                            │
+╰───────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r135_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r36_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r36_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r19_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r19_BAG_L2
+
+╭─────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r1_BAG_L2   │
+├─────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator      │
+│ Scheduler                        FIFOScheduler              │
+│ Number of trials                 5                          │
+╰─────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r1_BAG_L2
+
+╭──────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     NeuralNetTorch_r89_BAG_L2   │
+├──────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator       │
+│ Scheduler                        FIFOScheduler               │
+│ Number of trials                 5                           │
+╰──────────────────────────────────────────────────────────────╯
+
+View detailed results here: /mnt/lustre/koa/scratch/echung32/models7/models/NeuralNetTorch_r89_BAG_L2
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                                      model  score_val eval_metric  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0                       WeightedEnsemble_L3   0.819804     roc_auc      78.662777  3585.157564                0.006154          11.757063            3       True        428
+1                NeuralNetFastAI_r88_BAG_L2   0.819114     roc_auc      69.959743  3108.304132                0.211961          19.617145            2       True        345
+2               NeuralNetFastAI_r143_BAG_L2   0.818995     roc_auc      69.972033  3107.420414                0.224251          18.733427            2       True        298
+3               NeuralNetFastAI_r160_BAG_L2   0.818917     roc_auc      70.487583  3131.643492                0.739802          42.956504            2       True        368
+4                NeuralNetFastAI_r37_BAG_L2   0.818704     roc_auc      70.054471  3119.645085                0.306690          30.958098            2       True        318
+5               NeuralNetFastAI_r111_BAG_L2   0.818629     roc_auc      69.907881  3098.634927                0.160100           9.947940            2       True        337
+6                       WeightedEnsemble_L2   0.818465     roc_auc       3.978208  1271.661368                0.006051          10.898331            2       True        215
+7                      LightGBMXT_BAG_L2/T4   0.818393     roc_auc      71.187435  3104.498108                1.439654          15.811121            2       True        219
+8               NeuralNetFastAI_r103_BAG_L2   0.818391     roc_auc      70.209065  3139.759372                0.461284          51.072385            2       True        291
+9     NeuralNetTorch_r36_BAG_L2/75202_00002   0.818351     roc_auc      69.965594  3129.989696                0.217813          41.302708            2       True        403
+10    NeuralNetTorch_r36_BAG_L2/75202_00001   0.818351     roc_auc      69.965767  3130.180360                0.217986          41.493372            2       True        402
+11       NeuralNetFastAI_BAG_L2/96a97_00001   0.818342     roc_auc      70.168958  3105.145781                0.421177          16.458794            2       True        236
+12   NeuralNetTorch_r143_BAG_L2/2a209_00001   0.818330     roc_auc      70.355892  3203.318975                0.608111         114.631987            2       True        332
+13              NeuralNetFastAI_r194_BAG_L2   0.818306     roc_auc      70.214636  3116.653252                0.466855          27.966264            2       True        392
+14                     LightGBMXT_BAG_L2/T1   0.818281     roc_auc      69.859172  3092.501100                0.111390           3.814112            2       True        216
+15                      LightGBM_r96_BAG_L2   0.818267     roc_auc      69.995929  3093.114365                0.248148           4.427378            2       True        260
+16                       CatBoost_BAG_L2/T4   0.818229     roc_auc      69.851688  3103.880627                0.103907          15.193639            2       True        231
+17              NeuralNetFastAI_r172_BAG_L2   0.818224     roc_auc      70.033388  3108.021518                0.285607          19.334530            2       True        377
+18                       CatBoost_BAG_L2/T3   0.818216     roc_auc      69.836908  3117.640994                0.089126          28.954006            2       True        230
+19                      LightGBM_r94_BAG_L2   0.818203     roc_auc      69.860147  3092.121668                0.112366           3.434680            2       True        330
+20    NeuralNetTorch_r76_BAG_L2/c90b6_00002   0.818202     roc_auc      70.522147  3221.048228                0.774365         132.361240            2       True        381
+21    NeuralNetTorch_r36_BAG_L2/75202_00004   0.818192     roc_auc      70.131514  3126.829032                0.383733          38.142045            2       True        405
+22              NeuralNetFastAI_r187_BAG_L2   0.818143     roc_auc      69.963655  3107.369613                0.215873          18.682626            2       True        409
+23       NeuralNetFastAI_BAG_L2/96a97_00004   0.818142     roc_auc      70.060219  3101.743691                0.312437          13.056703            2       True        239
+24                      CatBoost_r86_BAG_L2   0.818107     roc_auc      69.808762  3099.274527                0.060981          10.587540            2       True        317
+25                       CatBoost_BAG_L2/T5   0.818066     roc_auc      69.845830  3101.059090                0.098048          12.372103            2       True        232
+26    NeuralNetTorch_r79_BAG_L2/afe24_00003   0.818053     roc_auc      70.154933  3139.370630                0.407152          50.683643            2       True        255
+27    NeuralNetTorch_r79_BAG_L2/afe24_00000   0.818053     roc_auc      70.160377  3139.699866                0.412596          51.012878            2       True        252
+28    NeuralNetTorch_r79_BAG_L2/afe24_00004   0.818053     roc_auc      70.164118  3139.423706                0.416336          50.736718            2       True        256
+29                      CatBoost_r13_BAG_L2   0.818012     roc_auc      69.846486  3105.223275                0.098705          16.536288            2       True        270
+30                      CatBoost_r69_BAG_L2   0.818006     roc_auc      69.818752  3093.678665                0.070971           4.991678            2       True        290
+31    NeuralNetTorch_r89_BAG_L2/2ce04_00003   0.817966     roc_auc      70.262576  3206.936931                0.514794         118.249943            2       True        426
+32       NeuralNetFastAI_BAG_L2/96a97_00000   0.817951     roc_auc      70.244641  3126.359564                0.496860          37.672577            2       True        235
+33    NeuralNetTorch_r79_BAG_L2/afe24_00002   0.817948     roc_auc      70.159802  3139.387030                0.412020          50.700042            2       True        254
+34              NeuralNetFastAI_r127_BAG_L2   0.817948     roc_auc      69.955685  3100.686527                0.207903          11.999540            2       True        390
+35                     CatBoost_r137_BAG_L2   0.817932     roc_auc      69.809252  3093.387238                0.061471           4.700251            2       True        268
+36                       CatBoost_r5_BAG_L2   0.817884     roc_auc      69.819345  3094.018653                0.071564           5.331666            2       True        348
+37              NeuralNetFastAI_r145_BAG_L2   0.817884     roc_auc      70.509775  3150.069347                0.761994          61.382360            2       True        273
+38                       CatBoost_BAG_L2/T1   0.817880     roc_auc      69.823102  3095.409099                0.075320           6.722112            2       True        228
+39                      CatBoost_r60_BAG_L2   0.817864     roc_auc      69.799257  3093.230262                0.051476           4.543274            2       True        369
+40                NeuralNetFastAI_r4_BAG_L2   0.817863     roc_auc      70.173172  3122.774374                0.425390          34.087386            2       True        399
+41                     LightGBMXT_BAG_L2/T3   0.817863     roc_auc      69.860152  3092.635966                0.112371           3.948978            2       True        218
+42                     LightGBM_r196_BAG_L2   0.817860     roc_auc      70.740287  3099.256811                0.992505          10.569823            2       True        301
+43    NeuralNetTorch_r87_BAG_L2/bad94_00004   0.817846     roc_auc      69.964132  3191.939375                0.216350         103.252388            2       True        353
+44    NeuralNetTorch_r87_BAG_L2/bad94_00002   0.817846     roc_auc      69.967489  3192.685800                0.219707         103.998812            2       True        351
+45    NeuralNetTorch_r89_BAG_L2/2ce04_00001   0.817844     roc_auc      70.159419  3191.323702                0.411638         102.636714            2       True        424
+46                      CatBoost_r12_BAG_L2   0.817834     roc_auc      69.809601  3096.054854                0.061820           7.367867            2       True        393
+47                     CatBoost_r163_BAG_L2   0.817827     roc_auc      69.794369  3092.475112                0.046588           3.788125            2       True        407
+48    NeuralNetTorch_r76_BAG_L2/c90b6_00001   0.817778     roc_auc      70.962001  3524.639106                1.214219         435.952118            2       True        380
+49    NeuralNetTorch_r76_BAG_L2/c90b6_00004   0.817778     roc_auc      70.967981  3524.343637                1.220200         435.656649            2       True        383
+50    NeuralNetTorch_r76_BAG_L2/c90b6_00000   0.817778     roc_auc      70.976275  3527.100568                1.228494         438.413580            2       True        379
+51    NeuralNetTorch_r36_BAG_L2/75202_00003   0.817771     roc_auc      70.125407  3123.566292                0.377626          34.879304            2       True        404
+52                      CatBoost_r49_BAG_L2   0.817761     roc_auc      69.807496  3093.011591                0.059715           4.324604            2       True        324
+53                       CatBoost_BAG_L2/T2   0.817758     roc_auc      69.810537  3092.686692                0.062756           3.999705            2       True        229
+54                     CatBoost_r143_BAG_L2   0.817746     roc_auc      69.797215  3093.530337                0.049433           4.843350            2       True        359
+55   NeuralNetTorch_r135_BAG_L2/2eb74_00003   0.817744     roc_auc      70.205596  3152.089372                0.457815          63.402384            2       True        397
+56   NeuralNetTorch_r135_BAG_L2/2eb74_00000   0.817744     roc_auc      70.210492  3151.378339                0.462711          62.691351            2       True        394
+57    NeuralNetTorch_r41_BAG_L2/da23c_00001   0.817725     roc_auc      70.119016  3131.904106                0.371234          43.217119            2       True        306
+58                       CatBoost_r6_BAG_L2   0.817723     roc_auc      69.804738  3092.799474                0.056957           4.112486            2       True        374
+59                        XGBoost_BAG_L2/T4   0.817699     roc_auc      70.008557  3092.681274                0.260775           3.994286            2       True        243
+60    NeuralNetTorch_r36_BAG_L2/75202_00000   0.817688     roc_auc      70.110214  3158.633317                0.362433          69.946330            2       True        401
+61   NeuralNetTorch_r185_BAG_L2/1a540_00003   0.817676     roc_auc      71.907505  3553.920639                2.159723         465.233651            2       True        366
+62                  RandomForest_r34_BAG_L2   0.817674     roc_auc      71.350815  3113.577581                1.603034          24.890594            2       True        329
+63                      LightGBM_r15_BAG_L2   0.817653     roc_auc      69.862182  3092.702478                0.114401           4.015491            2       True        311
+64                      CatBoost_r70_BAG_L2   0.817646     roc_auc      69.815802  3096.141574                0.068020           7.454587            2       True        299
+65   NeuralNetTorch_r185_BAG_L2/1a540_00004   0.817642     roc_auc      71.148044  3431.721252                1.400263         343.034264            2       True        367
+66   NeuralNetTorch_r185_BAG_L2/1a540_00000   0.817642     roc_auc      71.151239  3431.337671                1.403457         342.650683            2       True        363
+67                      CatBoost_r50_BAG_L2   0.817620     roc_auc      69.806219  3092.589053                0.058437           3.902066            2       True        286
+68                     CatBoost_r198_BAG_L2   0.817607     roc_auc      69.831049  3095.145668                0.083268           6.458681            2       True        408
+69    NeuralNetTorch_r87_BAG_L2/bad94_00003   0.817578     roc_auc      70.115788  3198.217039                0.368006         109.530051            2       True        352
+70    NeuralNetTorch_r87_BAG_L2/bad94_00000   0.817578     roc_auc      70.118208  3198.136945                0.370427         109.449958            2       True        349
+71    NeuralNetTorch_r41_BAG_L2/da23c_00004   0.817573     roc_auc      70.109511  3136.051111                0.361730          47.364123            2       True        309
+72    NeuralNetTorch_r41_BAG_L2/da23c_00002   0.817573     roc_auc      70.109874  3135.462180                0.362092          46.775192            2       True        307
+73    NeuralNetTorch_r41_BAG_L2/da23c_00003   0.817573     roc_auc      70.113848  3135.934340                0.366067          47.247353            2       True        308
+74    NeuralNetTorch_r41_BAG_L2/da23c_00000   0.817573     roc_auc      70.124243  3136.411425                0.376462          47.724437            2       True        305
+75   NeuralNetTorch_r135_BAG_L2/2eb74_00001   0.817562     roc_auc      70.064071  3164.066456                0.316290          75.379468            2       True        395
+76                     CatBoost_r177_BAG_L2   0.817538     roc_auc      69.805770  3092.591288                0.057989           3.904300            2       True        251
+77                       LightGBM_BAG_L2/T4   0.817516     roc_auc      70.539490  3101.699918                0.791709          13.012930            2       True        224
+78                       XGBoost_r31_BAG_L2   0.817511     roc_auc      70.045738  3095.911583                0.297957           7.224595            2       True        362
+79    NeuralNetTorch_r89_BAG_L2/2ce04_00004   0.817510     roc_auc      70.249401  3196.834479                0.501620         108.147491            2       True        427
+80    NeuralNetTorch_r89_BAG_L2/2ce04_00000   0.817510     roc_auc      70.250930  3196.304030                0.503149         107.617043            2       True        423
+81    NeuralNetTorch_r89_BAG_L2/2ce04_00002   0.817510     roc_auc      70.266266  3196.678910                0.518485         107.991922            2       True        425
+82     NeuralNetTorch_r1_BAG_L2/0412c_00004   0.817502     roc_auc      70.250196  3152.503195                0.502414          63.816208            2       True        422
+83     NeuralNetTorch_r1_BAG_L2/0412c_00002   0.817502     roc_auc      70.251125  3153.612756                0.503344          64.925768            2       True        420
+84     NeuralNetTorch_r1_BAG_L2/0412c_00001   0.817502     roc_auc      70.253435  3153.435333                0.505653          64.748345            2       True        419
+85     NeuralNetTorch_r1_BAG_L2/0412c_00003   0.817502     roc_auc      70.255845  3153.569197                0.508064          64.882209            2       True        421
+86     NeuralNetTorch_r1_BAG_L2/0412c_00000   0.817502     roc_auc      70.256416  3151.646424                0.508634          62.959436            2       True        418
+87                      LightGBM_r30_BAG_L2   0.817473     roc_auc      70.037530  3095.503403                0.289749           6.816415            2       True        346
+88   NeuralNetTorch_r143_BAG_L2/2a209_00004   0.817463     roc_auc      70.354442  3197.497833                0.606661         108.810845            2       True        335
+89   NeuralNetTorch_r143_BAG_L2/2a209_00000   0.817463     roc_auc      70.354895  3198.297261                0.607113         109.610273            2       True        331
+90   NeuralNetTorch_r143_BAG_L2/2a209_00002   0.817463     roc_auc      70.362262  3197.818504                0.614481         109.131516            2       True        333
+91   NeuralNetTorch_r143_BAG_L2/2a209_00003   0.817463     roc_auc      70.362569  3195.138805                0.614788         106.451818            2       True        334
+92                     CatBoost_r180_BAG_L2   0.817456     roc_auc      69.800959  3096.722963                0.053178           8.035975            2       True        378
+93    NeuralNetTorch_r76_BAG_L2/c90b6_00003   0.817453     roc_auc      70.676979  3295.314404                0.929198         206.627417            2       True        382
+94               NeuralNetFastAI_r69_BAG_L2   0.817410     roc_auc      70.458936  3129.139402                0.711154          40.452415            2       True        373
+95    NeuralNetTorch_r19_BAG_L2/bbc11_00004   0.817400     roc_auc      70.126995  3188.469706                0.379213          99.782719            2       True        414
+96    NeuralNetTorch_r19_BAG_L2/bbc11_00000   0.817400     roc_auc      70.136072  3188.549400                0.388291          99.862412            2       True        410
+97    NeuralNetTorch_r19_BAG_L2/bbc11_00002   0.817400     roc_auc      70.142737  3188.393328                0.394956          99.706340            2       True        412
+98    NeuralNetTorch_r19_BAG_L2/bbc11_00001   0.817400     roc_auc      70.143183  3189.132675                0.395402         100.445687            2       True        411
+99               NeuralNetFastAI_r95_BAG_L2   0.817379     roc_auc      70.486687  3148.300631                0.738906          59.613644            2       True        304
+100              NeuralNetFastAI_r65_BAG_L2   0.817362     roc_auc      69.942860  3103.722577                0.195078          15.035589            2       True        344
+101   NeuralNetTorch_r22_BAG_L2/fc8f3_00001   0.817345     roc_auc      70.276345  3142.607414                0.528563          53.920427            2       True        262
+102   NeuralNetTorch_r22_BAG_L2/fc8f3_00002   0.817345     roc_auc      70.281038  3142.365204                0.533257          53.678216            2       True        263
+103   NeuralNetTorch_r22_BAG_L2/fc8f3_00000   0.817345     roc_auc      70.283142  3142.759349                0.535361          54.072361            2       True        261
+104   NeuralNetTorch_r22_BAG_L2/fc8f3_00003   0.817345     roc_auc      70.300923  3140.710992                0.553142          52.024004            2       True        264
+105   NeuralNetTorch_r22_BAG_L2/fc8f3_00004   0.817345     roc_auc      70.301505  3140.745772                0.553724          52.058784            2       True        265
+106             NeuralNetFastAI_r102_BAG_L2   0.817328     roc_auc      69.902946  3099.264107                0.155165          10.577119            2       True        269
+107                    CatBoost_r128_BAG_L2   0.817313     roc_auc      69.815586  3100.354322                0.067805          11.667334            2       True        336
+108                       XGBoost_BAG_L2/T3   0.817289     roc_auc      70.156394  3097.743500                0.408613           9.056512            2       True        242
+109  NeuralNetTorch_r135_BAG_L2/2eb74_00002   0.817289     roc_auc      70.204201  3159.657344                0.456420          70.970357            2       True        396
+110  NeuralNetTorch_r135_BAG_L2/2eb74_00004   0.817289     roc_auc      70.206571  3159.923804                0.458790          71.236816            2       True        398
+111  NeuralNetTorch_r185_BAG_L2/1a540_00001   0.817278     roc_auc      71.391683  3556.782093                1.643902         468.095105            2       True        364
+112  NeuralNetTorch_r185_BAG_L2/1a540_00002   0.817278     roc_auc      71.405011  3556.694882                1.657229         468.007895            2       True        365
+113                    CatBoost_r167_BAG_L2   0.817254     roc_auc      69.804005  3093.406808                0.056223           4.719820            2       True        303
+114                      XGBoost_r89_BAG_L2   0.817254     roc_auc      69.992613  3092.604065                0.244832           3.917077            2       True        274
+115                    LightGBM_r131_BAG_L2   0.817251     roc_auc      69.927664  3094.028855                0.179883           5.341867            2       True        257
+116   NeuralNetTorch_r14_BAG_L2/688a5_00000   0.817232     roc_auc      70.122239  3108.067734                0.374458          19.380746            2       True        292
+117   NeuralNetTorch_r14_BAG_L2/688a5_00002   0.817232     roc_auc      70.124612  3108.051965                0.376831          19.364978            2       True        294
+118   NeuralNetTorch_r14_BAG_L2/688a5_00003   0.817232     roc_auc      70.137118  3108.130566                0.389337          19.443579            2       True        295
+119   NeuralNetTorch_r79_BAG_L2/afe24_00001   0.817228     roc_auc      70.004287  3143.810129                0.256506          55.123141            2       True        253
+120                      XGBoost_r98_BAG_L2   0.817209     roc_auc      69.921259  3106.236505                0.173478          17.549517            2       True        310
+121   NeuralNetTorch_r87_BAG_L2/bad94_00001   0.817203     roc_auc      70.131310  3165.213036                0.383528          76.526048            2       True        350
+122       NeuralNetTorch_BAG_L2/c1ee4_00004   0.817200     roc_auc      70.232966  3172.851459                0.485185          84.164472            2       True        249
+123                    LightGBMXT_BAG_L2/T2   0.817161     roc_auc      69.825637  3092.638410                0.077856           3.951423            2       True        217
+124             NeuralNetFastAI_r191_BAG_L2   0.817159     roc_auc      70.291555  3134.802198                0.543774          46.115210            2       True        258
+125                       XGBoost_BAG_L2/T2   0.817154     roc_auc      70.040587  3093.742138                0.292806           5.055151            2       True        241
+126              NeuralNetFastAI_r11_BAG_L2   0.817139     roc_auc      70.504052  3155.870571                0.756271          67.183583            2       True        287
+127                      XGBoost_r95_BAG_L2   0.817128     roc_auc      70.003173  3092.599458                0.255392           3.912471            2       True        415
+128   NeuralNetTorch_r14_BAG_L2/688a5_00001   0.817105     roc_auc      70.163133  3106.834269                0.415352          18.147281            2       True        293
+129                      CatBoost_r9_BAG_L2   0.817094     roc_auc      69.818488  3101.250101                0.070707          12.563113            2       True        259
+130      NeuralNetFastAI_BAG_L2/96a97_00002   0.817084     roc_auc      70.104637  3105.750022                0.356855          17.063034            2       True        237
+131                      LightGBM_BAG_L2/T1   0.817075     roc_auc      69.829874  3092.590809                0.082093           3.903821            2       True        221
+132                    ExtraTrees_r4_BAG_L2   0.817009     roc_auc      71.399299  3092.740459                1.651518           4.053471            2       True        343
+133   NeuralNetTorch_r14_BAG_L2/688a5_00004   0.816972     roc_auc      69.961191  3108.094244                0.213410          19.407256            2       True        296
+134                    LightGBM_r161_BAG_L2   0.816943     roc_auc      70.019291  3096.996800                0.271510           8.309812            2       True        297
+135                    LightGBM_r121_BAG_L2   0.816921     roc_auc      69.991946  3096.589110                0.244164           7.902122            2       True        376
+136   NeuralNetTorch_r86_BAG_L2/d3c5c_00002   0.816877     roc_auc      70.360623  3193.949346                0.612842         105.262358            2       True        283
+137   NeuralNetTorch_r86_BAG_L2/d3c5c_00000   0.816877     roc_auc      70.371935  3195.720420                0.624154         107.033432            2       True        281
+138   NeuralNetTorch_r86_BAG_L2/d3c5c_00003   0.816877     roc_auc      70.375831  3195.079914                0.628050         106.392926            2       True        284
+139   NeuralNetTorch_r86_BAG_L2/d3c5c_00004   0.816877     roc_auc      70.380332  3195.595744                0.632551         106.908756            2       True        285
+140   NeuralNetTorch_r86_BAG_L2/d3c5c_00001   0.816877     roc_auc      70.380347  3195.449283                0.632566         106.762295            2       True        282
+141       NeuralNetTorch_BAG_L2/c1ee4_00000   0.816872     roc_auc      70.187533  3116.092186                0.439751          27.405198            2       True        245
+142   NeuralNetTorch_r19_BAG_L2/bbc11_00003   0.816871     roc_auc      70.011487  3166.722649                0.263705          78.035661            2       True        413
+143                    LightGBMXT_BAG_L2/T5   0.816864     roc_auc      69.840468  3092.249327                0.092687           3.562340            2       True        220
+144                      LightGBM_BAG_L2/T3   0.816863     roc_auc      69.843854  3092.724160                0.096073           4.037172            2       True        223
+145                       XGBoost_BAG_L2/T1   0.816840     roc_auc      70.039888  3092.973423                0.292107           4.286435            2       True        240
+146                      XGBoost_r49_BAG_L2   0.816826     roc_auc      70.016292  3093.734832                0.268510           5.047845            2       True        347
+147             NeuralNetFastAI_r138_BAG_L2   0.816823     roc_auc      70.524183  3156.793114                0.776401          68.106127            2       True        375
+148                    LightGBM_r188_BAG_L2   0.816785     roc_auc      69.841849  3092.817295                0.094068           4.130307            2       True        272
+149                      XGBoost_r22_BAG_L2   0.816748     roc_auc      69.984524  3092.641829                0.236743           3.954842            2       True        372
+150                      XGBoost_r33_BAG_L2   0.816562     roc_auc      70.086481  3099.826886                0.338700          11.139898            2       True        266
+151                    LightGBM_r130_BAG_L2   0.816475     roc_auc      69.820213  3092.300162                0.072432           3.613174            2       True        280
+152                    LightGBMLarge_BAG_L2   0.816436     roc_auc      69.882077  3093.015409                0.134296           4.328421            2       True        250
+153                    LightGBM_r143_BAG_L2   0.816223     roc_auc      69.931688  3096.314761                0.183907           7.627773            2       True        326
+154                      XGBoost_r34_BAG_L2   0.816089     roc_auc      70.064788  3097.052886                0.317007           8.365899            2       True        416
+155                      LightGBM_BAG_L2/T5   0.816037     roc_auc      69.817200  3092.351390                0.069419           3.664402            2       True        225
+156                     XGBoost_r194_BAG_L2   0.815993     roc_auc      69.808627  3092.610908                0.060846           3.923920            2       True        288
+157   NeuralNetTorch_r31_BAG_L2/7ddfa_00000   0.815956     roc_auc      70.116037  3129.179100                0.368256          40.492112            2       True        338
+158   NeuralNetTorch_r31_BAG_L2/7ddfa_00001   0.815956     roc_auc      70.116717  3128.930486                0.368936          40.243499            2       True        339
+159                      LightGBM_BAG_L2/T2   0.815940     roc_auc      69.829952  3092.900748                0.082171           4.213761            2       True        222
+160   NeuralNetTorch_r30_BAG_L2/82b4e_00001   0.815899     roc_auc      70.242564  3217.374914                0.494783         128.687926            2       True        276
+161   NeuralNetTorch_r71_BAG_L2/fe416_00004   0.815801     roc_auc      69.974666  3106.507663                0.226885          17.820675            2       True        358
+162                    LightGBM_r135_BAG_L2   0.815674     roc_auc      69.853264  3093.733696                0.105483           5.046708            2       True        371
+163   NeuralNetTorch_r31_BAG_L2/7ddfa_00002   0.815545     roc_auc      70.125370  3125.126934                0.377589          36.439946            2       True        340
+164   NeuralNetTorch_r31_BAG_L2/7ddfa_00004   0.815545     roc_auc      70.131249  3125.429220                0.383468          36.742232            2       True        342
+165                 RandomForestEntr_BAG_L2   0.815340     roc_auc      71.779270  3096.768418                2.031489           8.081430            2       True        227
+166                  ExtraTrees_r178_BAG_L2   0.815293     roc_auc      71.651635  3093.304989                1.903854           4.618002            2       True        360
+167   NeuralNetTorch_r31_BAG_L2/7ddfa_00003   0.815203     roc_auc      70.142323  3122.397676                0.394541          33.710688            2       True        341
+168       NeuralNetTorch_BAG_L2/c1ee4_00003   0.815160     roc_auc      70.617736  3213.214790                0.869955         124.527802            2       True        248
+169                     LightGBM_r42_BAG_L2   0.815145     roc_auc      69.812532  3092.230284                0.064751           3.543296            2       True        417
+170             NeuralNetFastAI_r134_BAG_L2   0.815028     roc_auc      69.953125  3104.743913                0.205343          16.056925            2       True        328
+171                  ExtraTrees_r172_BAG_L2   0.814993     roc_auc      71.556041  3093.911679                1.808260           5.224691            2       True        289
+172                  ExtraTrees_r126_BAG_L2   0.814807     roc_auc      71.878876  3093.019314                2.131095           4.332327            2       True        400
+173   NeuralNetTorch_r71_BAG_L2/fe416_00000   0.814683     roc_auc      70.115345  3106.712011                0.367564          18.025023            2       True        354
+174   NeuralNetTorch_r71_BAG_L2/fe416_00001   0.814683     roc_auc      70.128878  3107.462020                0.381097          18.775032            2       True        355
+175             NeuralNetFastAI_r156_BAG_L2   0.814446     roc_auc      69.898126  3098.934596                0.150345          10.247608            2       True        300
+176   NeuralNetTorch_r71_BAG_L2/fe416_00002   0.814346     roc_auc      70.118775  3108.133319                0.370993          19.446332            2       True        356
+177   NeuralNetTorch_r71_BAG_L2/fe416_00003   0.814340     roc_auc      70.148804  3106.950173                0.401022          18.263186            2       True        357
+178                   ExtraTreesEntr_BAG_L2   0.814328     roc_auc      71.915410  3092.973094                2.167629           4.286106            2       True        234
+179                RandomForest_r127_BAG_L2   0.814245     roc_auc      71.653653  3138.750412                1.905872          50.063424            2       True        327
+180  NeuralNetTorch_r121_BAG_L2/d4895_00004   0.814174     roc_auc      72.192017  3556.338088                2.444236         467.651100            2       True        389
+181  NeuralNetTorch_r197_BAG_L2/d4245_00003   0.813874     roc_auc      70.118831  3108.990198                0.371050          20.303210            2       True        322
+182  NeuralNetTorch_r197_BAG_L2/d4245_00000   0.813874     roc_auc      70.128802  3110.228963                0.381021          21.541976            2       True        319
+183  NeuralNetTorch_r197_BAG_L2/d4245_00001   0.813874     roc_auc      70.129144  3110.472612                0.381363          21.785625            2       True        320
+184                   ExtraTreesGini_BAG_L2   0.813482     roc_auc      71.799651  3092.680336                2.051870           3.993348            2       True        233
+185                   ExtraTrees_r49_BAG_L2   0.813482     roc_auc      71.826162  3092.867484                2.078381           4.180496            2       True        325
+186  NeuralNetTorch_r197_BAG_L2/d4245_00002   0.813379     roc_auc      70.139379  3112.511745                0.391598          23.824757            2       True        321
+187             NeuralNetFastAI_r100_BAG_L2   0.813098     roc_auc      69.955516  3103.173385                0.207735          14.486397            2       True        406
+188                 RandomForest_r15_BAG_L2   0.813077     roc_auc      71.788417  3130.428525                2.040635          41.741538            2       True        370
+189                   ExtraTrees_r42_BAG_L2   0.812942     roc_auc      71.810133  3094.444900                2.062351           5.757912            2       True        267
+190                       XGBoost_BAG_L2/T5   0.812834     roc_auc      70.129778  3096.217321                0.381997           7.530334            2       True        244
+191                 RandomForestGini_BAG_L2   0.812812     roc_auc      71.820537  3096.379099                2.072756           7.692111            2       True        226
+192   NeuralNetTorch_r30_BAG_L2/82b4e_00000   0.812698     roc_auc      70.237086  3177.672692                0.489305          88.985705            2       True        275
+193   NeuralNetTorch_r30_BAG_L2/82b4e_00002   0.812698     roc_auc      70.242914  3176.840264                0.495133          88.153276            2       True        277
+194   NeuralNetTorch_r30_BAG_L2/82b4e_00004   0.812698     roc_auc      70.251672  3178.014540                0.503891          89.327553            2       True        279
+195   NeuralNetTorch_r30_BAG_L2/82b4e_00003   0.812698     roc_auc      70.254461  3177.621815                0.506679          88.934828            2       True        278
+196                RandomForest_r166_BAG_L2   0.812614     roc_auc      71.727949  3094.409808                1.980168           5.722821            2       True        361
+197  NeuralNetTorch_r197_BAG_L2/d4245_00004   0.812339     roc_auc      70.141526  3115.646267                0.393745          26.959279            2       True        323
+198                 RandomForest_r39_BAG_L2   0.812170     roc_auc      71.716532  3133.113092                1.968750          44.426105            2       True        302
+199                  ExtraTrees_r197_BAG_L2   0.812044     roc_auc      71.876526  3095.310275                2.128745           6.623288            2       True        384
+200  NeuralNetTorch_r121_BAG_L2/d4895_00000   0.811805     roc_auc      73.010278  3552.856441                3.262497         464.169453            2       True        385
+201  NeuralNetTorch_r121_BAG_L2/d4895_00002   0.811805     roc_auc      73.017278  3553.306110                3.269497         464.619123            2       True        387
+202  NeuralNetTorch_r121_BAG_L2/d4895_00001   0.811805     roc_auc      73.024201  3555.285580                3.276420         466.598592            2       True        386
+203  NeuralNetTorch_r121_BAG_L2/d4895_00003   0.811805     roc_auc      73.034210  3554.061005                3.286429         465.374017            2       True        388
+204                 RandomForest_r16_BAG_L2   0.810273     roc_auc      71.782450  3149.309635                2.034668          60.622647            2       True        391
+205                RandomForest_r195_BAG_L2   0.810216     roc_auc      71.849911  3134.172714                2.102130          45.485726            2       True        271
+206       NeuralNetTorch_BAG_L2/c1ee4_00002   0.809418     roc_auc      70.193915  3286.896047                0.446134         198.209059            2       True        247
+207  NeuralNetTorch_r143_BAG_L1/04d3d_00003   0.809319     roc_auc       0.313859   262.418866                0.313859         262.418866            1       True        121
+208  NeuralNetTorch_r158_BAG_L2/06059_00004   0.808195     roc_auc      70.570016  3334.637670                0.822234         245.950683            2       True        316
+209   NeuralNetTorch_r79_BAG_L1/ec8cc_00001   0.807946     roc_auc       0.161879    93.029486                0.161879          93.029486            1       True         40
+210      NeuralNetFastAI_BAG_L2/96a97_00003   0.806921     roc_auc      69.999877  3102.044338                0.252096          13.357351            2       True        238
+211  NeuralNetTorch_r143_BAG_L1/04d3d_00002   0.806654     roc_auc       0.498363   239.672425                0.498363         239.672425            1       True        120
+212  NeuralNetTorch_r143_BAG_L1/04d3d_00000   0.806654     roc_auc       0.499247   236.490524                0.499247         236.490524            1       True        118
+213  NeuralNetTorch_r143_BAG_L1/04d3d_00001   0.806484     roc_auc       0.490816   242.488583                0.490816         242.488583            1       True        119
+214  NeuralNetTorch_r143_BAG_L1/04d3d_00004   0.806484     roc_auc       0.497826   242.996677                0.497826         242.996677            1       True        122
+215   NeuralNetTorch_r41_BAG_L1/d80d0_00002   0.805788     roc_auc       0.108727   213.671540                0.108727         213.671540            1       True         94
+216                      CatBoost_BAG_L1/T3   0.805729     roc_auc       0.092687    41.461398                0.092687          41.461398            1       True         17
+217                    LightGBMXT_BAG_L1/T4   0.805539     roc_auc      11.271156    34.791242               11.271156          34.791242            1       True          6
+218  NeuralNetTorch_r158_BAG_L2/06059_00000   0.805324     roc_auc      71.085418  3388.685926                1.337637         299.998939            2       True        312
+219  NeuralNetTorch_r158_BAG_L2/06059_00001   0.805324     roc_auc      71.087385  3387.718334                1.339604         299.031346            2       True        313
+220    NeuralNetTorch_r1_BAG_L1/968e6_00002   0.805249     roc_auc       0.221430   112.854379                0.221430         112.854379            1       True        207
+221    NeuralNetTorch_r1_BAG_L1/968e6_00003   0.805249     roc_auc       0.223809   111.868752                0.223809         111.868752            1       True        208
+222                     CatBoost_r13_BAG_L1   0.805242     roc_auc       0.084797    44.390537                0.084797          44.390537            1       True         57
+223                      CatBoost_BAG_L1/T4   0.805241     roc_auc       0.130033    73.483109                0.130033          73.483109            1       True         18
+224                    LightGBM_r161_BAG_L1   0.805113     roc_auc       1.153988    13.394692                1.153988          13.394692            1       True         84
+225                     LightGBM_r30_BAG_L1   0.804771     roc_auc       2.449623    17.056860                2.449623          17.056860            1       True        133
+226                    LightGBM_r121_BAG_L1   0.804711     roc_auc       1.281739    13.229654                1.281739          13.229654            1       True        163
+227    NeuralNetTorch_r1_BAG_L1/968e6_00004   0.804489     roc_auc       0.410662    99.639774                0.410662          99.639774            1       True        209
+228                      XGBoost_r98_BAG_L1   0.804369     roc_auc       0.526868    20.403619                0.526868          20.403619            1       True         97
+229                     CatBoost_r86_BAG_L1   0.804356     roc_auc       0.070931    20.093626                0.070931          20.093626            1       True        104
+230                    LightGBM_r135_BAG_L1   0.804317     roc_auc       0.215373     5.217671                0.215373           5.217671            1       True        158
+231                     CatBoost_r12_BAG_L1   0.804276     roc_auc       0.067281    19.098442                0.067281          19.098442            1       True        180
+232  NeuralNetTorch_r158_BAG_L2/06059_00003   0.804225     roc_auc      70.816341  3335.930724                1.068560         247.243737            2       True        315
+233   NeuralNetTorch_r79_BAG_L1/ec8cc_00004   0.804195     roc_auc       0.322170    76.763707                0.322170          76.763707            1       True         43
+234   NeuralNetTorch_r79_BAG_L1/ec8cc_00000   0.804195     roc_auc       0.325431    75.897806                0.325431          75.897806            1       True         39
+235   NeuralNetTorch_r87_BAG_L1/7ed37_00003   0.804169     roc_auc       0.117504   330.698780                0.117504         330.698780            1       True        139
+236                      CatBoost_BAG_L1/T1   0.804147     roc_auc       0.058908    22.133954                0.058908          22.133954            1       True         15
+237   NeuralNetTorch_r79_BAG_L1/ec8cc_00003   0.804024     roc_auc       0.324988    74.174110                0.324988          74.174110            1       True         42
+238   NeuralNetTorch_r79_BAG_L1/ec8cc_00002   0.804024     roc_auc       0.335000    73.917631                0.335000          73.917631            1       True         41
+239                    LightGBM_r143_BAG_L1   0.804014     roc_auc       0.685534     9.605615                0.685534           9.605615            1       True        113
+240              NeuralNetFastAI_r69_BAG_L1   0.803856     roc_auc       0.638104    38.161841                0.638104          38.161841            1       True        160
+241                      LightGBM_BAG_L1/T4   0.803794     roc_auc       3.097763    17.761202                3.097763          17.761202            1       True         11
+242                       XGBoost_BAG_L1/T3   0.803755     roc_auc       0.449481     9.993570                0.449481           9.993570            1       True         29
+243                      XGBoost_r33_BAG_L1   0.803606     roc_auc       0.380169    10.707845                0.380169          10.707845            1       True         53
+244   NeuralNetTorch_r89_BAG_L1/dbf79_00003   0.803591     roc_auc       0.408316   130.998267                0.408316         130.998267            1       True        213
+245   NeuralNetTorch_r89_BAG_L1/dbf79_00000   0.803591     roc_auc       0.409802   132.785237                0.409802         132.785237            1       True        210
+246   NeuralNetTorch_r89_BAG_L1/dbf79_00002   0.803591     roc_auc       0.411562   131.089996                0.411562         131.089996            1       True        212
+247                      CatBoost_r9_BAG_L1   0.803536     roc_auc       0.071545    20.966944                0.071545          20.966944            1       True         46
+248                    LightGBM_r131_BAG_L1   0.803499     roc_auc       1.381974     9.338936                1.381974           9.338936            1       True         44
+249    NeuralNetTorch_r1_BAG_L1/968e6_00001   0.803413     roc_auc       0.392209   113.435998                0.392209         113.435998            1       True        206
+250    NeuralNetTorch_r1_BAG_L1/968e6_00000   0.803413     roc_auc       0.396431   111.941927                0.396431         111.941927            1       True        205
+251                      CatBoost_BAG_L1/T5   0.803327     roc_auc       0.111979    77.136023                0.111979          77.136023            1       True         19
+252   NeuralNetTorch_r41_BAG_L1/d80d0_00001   0.803326     roc_auc       0.277304   175.628318                0.277304         175.628318            1       True         93
+253   NeuralNetTorch_r89_BAG_L1/dbf79_00004   0.803315     roc_auc       0.414899   138.678349                0.414899         138.678349            1       True        214
+254   NeuralNetTorch_r89_BAG_L1/dbf79_00001   0.803315     roc_auc       0.416918   142.121203                0.416918         142.121203            1       True        211
+255       NeuralNetTorch_BAG_L1/9c8ed_00004   0.802914     roc_auc       0.357365   116.638256                0.357365         116.638256            1       True         36
+256   NeuralNetTorch_r30_BAG_L1/f9c36_00004   0.802905     roc_auc       0.230079   296.252127                0.230079         296.252127            1       True         66
+257   NeuralNetTorch_r30_BAG_L1/f9c36_00003   0.802905     roc_auc       0.233385   299.568550                0.233385         299.568550            1       True         65
+258                    LightGBMXT_BAG_L1/T3   0.802825     roc_auc       0.576504     5.340524                0.576504           5.340524            1       True          5
+259                    LightGBM_r196_BAG_L1   0.802824     roc_auc       8.173149    37.052406                8.173149          37.052406            1       True         88
+260                    CatBoost_r198_BAG_L1   0.802730     roc_auc       0.065582    12.848466                0.065582          12.848466            1       True        195
+261   NeuralNetTorch_r30_BAG_L1/f9c36_00000   0.802588     roc_auc       0.393256   181.993802                0.393256         181.993802            1       True         62
+262   NeuralNetTorch_r30_BAG_L1/f9c36_00002   0.802588     roc_auc       0.400342   182.353210                0.400342         182.353210            1       True         64
+263   NeuralNetTorch_r30_BAG_L1/f9c36_00001   0.802588     roc_auc       0.404672   181.320571                0.404672         181.320571            1       True         63
+264                    LightGBM_r130_BAG_L1   0.802587     roc_auc       0.162020     3.430233                0.162020           3.430233            1       True         67
+265                    CatBoost_r128_BAG_L1   0.802572     roc_auc       0.061378    16.531826                0.061378          16.531826            1       True        123
+266                    LightGBMLarge_BAG_L1   0.802549     roc_auc       0.233998     4.286238                0.233998           4.286238            1       True         37
+267                    LightGBMXT_BAG_L1/T1   0.802536     roc_auc       0.848480     5.865389                0.848480           5.865389            1       True          3
+268              NeuralNetFastAI_r37_BAG_L1   0.802465     roc_auc       0.246414    27.102559                0.246414          27.102559            1       True        105
+269             NeuralNetFastAI_r194_BAG_L1   0.802436     roc_auc       0.393444    24.894573                0.393444          24.894573            1       True        179
+270   NeuralNetTorch_r41_BAG_L1/d80d0_00004   0.802435     roc_auc       0.270546   222.370781                0.270546         222.370781            1       True         96
+271   NeuralNetTorch_r41_BAG_L1/d80d0_00003   0.802435     roc_auc       0.271890   223.568221                0.271890         223.568221            1       True         95
+272   NeuralNetTorch_r41_BAG_L1/d80d0_00000   0.802435     roc_auc       0.274427   224.076287                0.274427         224.076287            1       True         92
+273             NeuralNetFastAI_r187_BAG_L1   0.802408     roc_auc       0.159375    17.274141                0.159375          17.274141            1       True        196
+274                      XGBoost_r34_BAG_L1   0.802298     roc_auc       0.242318     7.031154                0.242318           7.031154            1       True        203
+275                      XGBoost_r49_BAG_L1   0.802168     roc_auc       0.142140     5.227916                0.142140           5.227916            1       True        134
+276                     LightGBM_r96_BAG_L1   0.802165     roc_auc       5.929208    11.728952                5.929208          11.728952            1       True         47
+277                      LightGBM_BAG_L1/T3   0.801872     roc_auc       0.198342     4.302717                0.198342           4.302717            1       True         10
+278                     CatBoost_r60_BAG_L1   0.801820     roc_auc       0.071702    14.268545                0.071702          14.268545            1       True        156
+279                    CatBoost_r143_BAG_L1   0.801804     roc_auc       0.033203     7.784744                0.033203           7.784744            1       True        146
+280  NeuralNetTorch_r135_BAG_L1/4068c_00004   0.801795     roc_auc       0.363881    86.022422                0.363881          86.022422            1       True        185
+281                    CatBoost_r180_BAG_L1   0.801596     roc_auc       0.049100     8.725998                0.049100           8.725998            1       True        165
+282                     CatBoost_r69_BAG_L1   0.801456     roc_auc       0.046003    13.404185                0.046003          13.404185            1       True         77
+283                     CatBoost_r70_BAG_L1   0.801433     roc_auc       0.074810    11.328049                0.074810          11.328049            1       True         86
+284                    LightGBM_r188_BAG_L1   0.801352     roc_auc       0.481536     6.714896                0.481536           6.714896            1       True         59
+285                    CatBoost_r177_BAG_L1   0.801162     roc_auc       0.055431     8.227301                0.055431           8.227301            1       True         38
+286                    CatBoost_r167_BAG_L1   0.801079     roc_auc       0.027330     6.493550                0.027330           6.493550            1       True         90
+287                     LightGBM_r15_BAG_L1   0.801012     roc_auc       0.836437     7.130521                0.836437           7.130521            1       True         98
+288                    CatBoost_r163_BAG_L1   0.800785     roc_auc       0.036704     6.148581                0.036704           6.148581            1       True        194
+289                       XGBoost_BAG_L1/T2   0.800776     roc_auc       0.182683     4.722253                0.182683           4.722253            1       True         28
+290  NeuralNetTorch_r185_BAG_L1/6a0fe_00002   0.800701     roc_auc       1.104625   234.336086                1.104625         234.336086            1       True        152
+291  NeuralNetTorch_r185_BAG_L1/6a0fe_00003   0.800701     roc_auc       1.106137   235.145630                1.106137         235.145630            1       True        153
+292  NeuralNetTorch_r185_BAG_L1/6a0fe_00000   0.800701     roc_auc       1.109703   235.011739                1.109703         235.011739            1       True        150
+293  NeuralNetTorch_r185_BAG_L1/6a0fe_00001   0.800701     roc_auc       1.113861   236.737483                1.113861         236.737483            1       True        151
+294                      CatBoost_BAG_L1/T2   0.800696     roc_auc       0.029167     7.279031                0.029167           7.279031            1       True         16
+295                      LightGBM_BAG_L1/T1   0.800453     roc_auc       0.162467     3.717901                0.162467           3.717901            1       True          8
+296                     LightGBM_r94_BAG_L1   0.800451     roc_auc       1.330057     6.780238                1.330057           6.780238            1       True        117
+297  NeuralNetTorch_r135_BAG_L1/4068c_00002   0.800447     roc_auc       0.380302    87.102596                0.380302          87.102596            1       True        183
+298                      LightGBM_BAG_L1/T2   0.800392     roc_auc       0.099615     3.455468                0.099615           3.455468            1       True          9
+299  NeuralNetTorch_r135_BAG_L1/4068c_00000   0.800387     roc_auc       0.357680    79.903976                0.357680          79.903976            1       True        181
+300  NeuralNetTorch_r135_BAG_L1/4068c_00001   0.800387     roc_auc       0.361588    81.315447                0.361588          81.315447            1       True        182
+301  NeuralNetTorch_r135_BAG_L1/4068c_00003   0.800387     roc_auc       0.373085    80.533706                0.373085          80.533706            1       True        184
+302                      LightGBM_BAG_L1/T5   0.800290     roc_auc       0.072846     3.025535                0.072846           3.025535            1       True         12
+303                    CatBoost_r137_BAG_L1   0.800157     roc_auc       0.071754    19.868566                0.071754          19.868566            1       True         55
+304                      XGBoost_r22_BAG_L1   0.800028     roc_auc       0.113275     3.835392                0.113275           3.835392            1       True        159
+305   NeuralNetTorch_r87_BAG_L1/7ed37_00000   0.799945     roc_auc       0.283338   284.921184                0.283338         284.921184            1       True        136
+306   NeuralNetTorch_r87_BAG_L1/7ed37_00002   0.799945     roc_auc       0.285699   286.956248                0.285699         286.956248            1       True        138
+307   NeuralNetTorch_r87_BAG_L1/7ed37_00001   0.799945     roc_auc       0.287001   286.416052                0.287001         286.416052            1       True        137
+308   NeuralNetTorch_r87_BAG_L1/7ed37_00004   0.799945     roc_auc       0.290294   288.851726                0.290294         288.851726            1       True        140
+309             NeuralNetFastAI_r103_BAG_L1   0.799879     roc_auc       0.376179    44.694582                0.376179          44.694582            1       True         78
+310   NeuralNetTorch_r22_BAG_L1/5db82_00003   0.799867     roc_auc       0.273210    90.743906                0.273210          90.743906            1       True         51
+311                    LightGBMXT_BAG_L1/T2   0.799809     roc_auc       0.214921     4.746195                0.214921           4.746195            1       True          4
+312                       XGBoost_BAG_L1/T1   0.799693     roc_auc       0.115464     4.006785                0.115464           4.006785            1       True         27
+313                    LightGBMXT_BAG_L1/T5   0.799538     roc_auc       0.169308     3.735254                0.169308           3.735254            1       True          7
+314                      CatBoost_r5_BAG_L1   0.799494     roc_auc       0.068129    11.907690                0.068129          11.907690            1       True        135
+315  NeuralNetTorch_r185_BAG_L1/6a0fe_00004   0.799485     roc_auc       1.253990   182.247947                1.253990         182.247947            1       True        154
+316                     XGBoost_r194_BAG_L1   0.799445     roc_auc       0.030005     3.384020                0.030005           3.384020            1       True         75
+317                     CatBoost_r49_BAG_L1   0.799189     roc_auc       0.050153    13.268824                0.050153          13.268824            1       True        111
+318      NeuralNetFastAI_BAG_L1/53486_00000   0.799149     roc_auc       0.409238    36.380433                0.409238          36.380433            1       True         22
+319  NeuralNetTorch_r158_BAG_L2/06059_00002   0.799120     roc_auc      71.188087  3349.855810                1.440306         261.168823            2       True        314
+320                      XGBoost_r95_BAG_L1   0.799101     roc_auc       0.110128     4.277323                0.110128           4.277323            1       True        202
+321             NeuralNetFastAI_r127_BAG_L1   0.799088     roc_auc       0.150947    10.735051                0.150947          10.735051            1       True        177
+322                      XGBoost_r89_BAG_L1   0.798973     roc_auc       0.098471     3.548020                0.098471           3.548020            1       True         61
+323       NeuralNetTorch_BAG_L1/9c8ed_00001   0.798554     roc_auc       0.283391    40.701469                0.283391          40.701469            1       True         33
+324   NeuralNetTorch_r22_BAG_L1/5db82_00001   0.798423     roc_auc       0.451958    88.674593                0.451958          88.674593            1       True         49
+325                      XGBoost_r31_BAG_L1   0.798050     roc_auc       1.418867    21.591449                1.418867          21.591449            1       True        149
+326             NeuralNetFastAI_r145_BAG_L1   0.797992     roc_auc       0.656976    58.893810                0.656976          58.893810            1       True         60
+327       NeuralNetTorch_BAG_L2/c1ee4_00001   0.797884     roc_auc      71.492919  3473.678777                1.745138         384.991789            2       True        246
+328   NeuralNetTorch_r22_BAG_L1/5db82_00004   0.797871     roc_auc       0.435039    86.968449                0.435039          86.968449            1       True         52
+329   NeuralNetTorch_r22_BAG_L1/5db82_00002   0.797871     roc_auc       0.437732    86.947817                0.437732          86.947817            1       True         50
+330   NeuralNetTorch_r22_BAG_L1/5db82_00000   0.797871     roc_auc       0.439672    86.778445                0.439672          86.778445            1       True         48
+331                     CatBoost_r50_BAG_L1   0.797865     roc_auc       0.058410     6.884271                0.058410           6.884271            1       True         73
+332             NeuralNetFastAI_r111_BAG_L1   0.797841     roc_auc       0.107664     8.531076                0.107664           8.531076            1       True        124
+333                      CatBoost_r6_BAG_L1   0.797431     roc_auc       0.060445     6.291662                0.060445           6.291662            1       True        161
+334                       XGBoost_BAG_L1/T5   0.797176     roc_auc       0.134132     4.815519                0.134132           4.815519            1       True         31
+335             NeuralNetFastAI_r102_BAG_L1   0.796644     roc_auc       0.098903     9.059159                0.098903           9.059159            1       True         56
+336       NeuralNetTorch_BAG_L1/9c8ed_00002   0.795934     roc_auc       0.304148    39.849739                0.304148          39.849739            1       True         34
+337             NeuralNetFastAI_r160_BAG_L1   0.795589     roc_auc       0.656077    39.624068                0.656077          39.624068            1       True        155
+338   NeuralNetTorch_r31_BAG_L1/b211f_00003   0.795149     roc_auc       0.125244   274.049356                0.125244         274.049356            1       True        128
+339                       XGBoost_BAG_L1/T4   0.794848     roc_auc       0.143071     4.837407                0.143071           4.837407            1       True         30
+340   NeuralNetTorch_r36_BAG_L1/8ac99_00003   0.794444     roc_auc       0.121714   330.202089                0.121714         330.202089            1       True        191
+341             NeuralNetFastAI_r172_BAG_L1   0.794421     roc_auc       0.209722    16.843165                0.209722          16.843165            1       True        164
+342   NeuralNetTorch_r31_BAG_L1/b211f_00004   0.794356     roc_auc       0.279977    74.828483                0.279977          74.828483            1       True        129
+343   NeuralNetTorch_r31_BAG_L1/b211f_00001   0.794356     roc_auc       0.281023    75.321442                0.281023          75.321442            1       True        126
+344   NeuralNetTorch_r31_BAG_L1/b211f_00002   0.794356     roc_auc       0.290902    75.919669                0.290902          75.919669            1       True        127
+345   NeuralNetTorch_r31_BAG_L1/b211f_00000   0.794356     roc_auc       0.299385    76.526148                0.299385          76.526148            1       True        125
+346             NeuralNetFastAI_r138_BAG_L1   0.794031     roc_auc       0.667727    81.487495                0.667727          81.487495            1       True        162
+347   NeuralNetTorch_r36_BAG_L1/8ac99_00000   0.793874     roc_auc       0.267514   330.274119                0.267514         330.274119            1       True        188
+348   NeuralNetTorch_r36_BAG_L1/8ac99_00001   0.793874     roc_auc       0.276440   330.440621                0.276440         330.440621            1       True        189
+349   NeuralNetTorch_r36_BAG_L1/8ac99_00002   0.793691     roc_auc       0.286578   330.606326                0.286578         330.606326            1       True        190
+350   NeuralNetTorch_r36_BAG_L1/8ac99_00004   0.793691     roc_auc       0.288992   330.236518                0.288992         330.236518            1       True        192
+351                     LightGBM_r42_BAG_L1   0.793046     roc_auc       0.207066     4.905367                0.207066           4.905367            1       True        204
+352              NeuralNetFastAI_r95_BAG_L1   0.793011     roc_auc       0.657551    60.564154                0.657551          60.564154            1       True         91
+353                 RandomForestEntr_BAG_L1   0.792872     roc_auc       1.421392     4.664356                1.421392           4.664356            1       True         14
+354   NeuralNetTorch_r76_BAG_L1/87632_00002   0.792869     roc_auc       0.755798   317.863310                0.755798         317.863310            1       True        168
+355   NeuralNetTorch_r76_BAG_L1/87632_00004   0.792382     roc_auc       0.723310   193.840591                0.723310         193.840591            1       True        170
+356   NeuralNetTorch_r76_BAG_L1/87632_00001   0.792382     roc_auc       0.725514   194.082344                0.725514         194.082344            1       True        167
+357   NeuralNetTorch_r76_BAG_L1/87632_00000   0.792382     roc_auc       0.731377   195.674759                0.731377         195.674759            1       True        166
+358             NeuralNetFastAI_r191_BAG_L1   0.792332     roc_auc       0.457554    51.679296                0.457554          51.679296            1       True         45
+359       NeuralNetTorch_BAG_L1/9c8ed_00003   0.792197     roc_auc       0.291612    44.264600                0.291612          44.264600            1       True         35
+360             NeuralNetFastAI_r143_BAG_L1   0.792048     roc_auc       0.148997    15.626404                0.148997          15.626404            1       True         85
+361   NeuralNetTorch_r76_BAG_L1/87632_00003   0.792022     roc_auc       0.717698   329.969336                0.717698         329.969336            1       True        169
+362                 RandomForest_r15_BAG_L1   0.791788     roc_auc       1.313652    10.354729                1.313652          10.354729            1       True        157
+363   NeuralNetTorch_r86_BAG_L1/b01b5_00001   0.790955     roc_auc       1.376277   119.121190                1.376277         119.121190            1       True         69
+364   NeuralNetTorch_r86_BAG_L1/b01b5_00002   0.790955     roc_auc       1.381025   118.472831                1.381025         118.472831            1       True         70
+365   NeuralNetTorch_r86_BAG_L1/b01b5_00000   0.790955     roc_auc       1.387587   118.921618                1.387587         118.921618            1       True         68
+366                 RandomForest_r39_BAG_L1   0.790422     roc_auc       1.350791    10.147987                1.350791          10.147987            1       True         89
+367      NeuralNetFastAI_BAG_L1/53486_00001   0.790293     roc_auc       0.677847    29.242461                0.677847          29.242461            1       True         23
+368                  ExtraTrees_r172_BAG_L1   0.790105     roc_auc       1.302711     3.059325                1.302711           3.059325            1       True         76
+369                RandomForest_r127_BAG_L1   0.789923     roc_auc       1.238215    11.298106                1.238215          11.298106            1       True        114
+370   NeuralNetTorch_r86_BAG_L1/b01b5_00004   0.789848     roc_auc       1.260977   152.176616                1.260977         152.176616            1       True         72
+371   NeuralNetTorch_r86_BAG_L1/b01b5_00003   0.789848     roc_auc       1.265860   152.134542                1.265860         152.134542            1       True         71
+372   NeuralNetTorch_r19_BAG_L1/72471_00002   0.789446     roc_auc       0.122903    41.506070                0.122903          41.506070            1       True        199
+373                  ExtraTrees_r178_BAG_L1   0.788916     roc_auc       1.344720     3.039608                1.344720           3.039608            1       True        147
+374                 RandomForest_r34_BAG_L1   0.788792     roc_auc       1.000133     6.578654                1.000133           6.578654            1       True        116
+375                 RandomForestGini_BAG_L1   0.788590     roc_auc       1.539059     4.511091                1.539059           4.511091            1       True         13
+376   NeuralNetTorch_r19_BAG_L1/72471_00001   0.788495     roc_auc       0.275699    30.793660                0.275699          30.793660            1       True        198
+377                RandomForest_r195_BAG_L1   0.788466     roc_auc       1.377634    10.851105                1.377634          10.851105            1       True         58
+378   NeuralNetTorch_r14_BAG_L1/5a762_00001   0.788081     roc_auc       0.272988    41.362134                0.272988          41.362134            1       True         80
+379                  ExtraTrees_r197_BAG_L1   0.787862     roc_auc       1.476120     4.225977                1.476120           4.225977            1       True        171
+380   NeuralNetTorch_r14_BAG_L1/5a762_00004   0.787481     roc_auc       0.272423    35.492795                0.272423          35.492795            1       True         83
+381   NeuralNetTorch_r14_BAG_L1/5a762_00002   0.787481     roc_auc       0.283267    36.280933                0.283267          36.280933            1       True         81
+382                RandomForest_r166_BAG_L1   0.787476     roc_auc       1.470400     4.281117                1.470400           4.281117            1       True        148
+383   NeuralNetTorch_r14_BAG_L1/5a762_00000   0.787392     roc_auc       0.266859    34.232273                0.266859          34.232273            1       True         79
+384   NeuralNetTorch_r14_BAG_L1/5a762_00003   0.787392     roc_auc       0.268786    33.483474                0.268786          33.483474            1       True         82
+385      NeuralNetFastAI_BAG_L1/53486_00004   0.787083     roc_auc       0.165323     9.648772                0.165323           9.648772            1       True         26
+386  NeuralNetTorch_r121_BAG_L1/5055f_00001   0.787069     roc_auc       4.154088   330.649913                4.154088         330.649913            1       True        173
+387                   ExtraTrees_r42_BAG_L1   0.786913     roc_auc       1.474771     3.466042                1.474771           3.466042            1       True         54
+388  NeuralNetTorch_r121_BAG_L1/5055f_00002   0.786902     roc_auc       4.199222   331.122800                4.199222         331.122800            1       True        174
+389  NeuralNetTorch_r121_BAG_L1/5055f_00000   0.786711     roc_auc       4.266673   330.511706                4.266673         330.511706            1       True        172
+390  NeuralNetTorch_r121_BAG_L1/5055f_00003   0.786711     roc_auc       4.287622   330.514899                4.287622         330.514899            1       True        175
+391              NeuralNetFastAI_r88_BAG_L1   0.786599     roc_auc       0.143605    16.123290                0.143605          16.123290            1       True        132
+392                 RandomForest_r16_BAG_L1   0.786383     roc_auc       1.403724    13.718421                1.403724          13.718421            1       True        178
+393   NeuralNetTorch_r19_BAG_L1/72471_00003   0.786293     roc_auc       0.269652    33.002629                0.269652          33.002629            1       True        200
+394   NeuralNetTorch_r19_BAG_L1/72471_00000   0.786293     roc_auc       0.277508    32.551712                0.277508          32.551712            1       True        197
+395   NeuralNetTorch_r19_BAG_L1/72471_00004   0.786293     roc_auc       0.280421    33.247321                0.280421          33.247321            1       True        201
+396       NeuralNetTorch_BAG_L1/9c8ed_00000   0.785579     roc_auc       0.279287    51.157963                0.279287          51.157963            1       True         32
+397  NeuralNetTorch_r121_BAG_L1/5055f_00004   0.785482     roc_auc       4.236953   329.480778                4.236953         329.480778            1       True        176
+398             NeuralNetFastAI_r134_BAG_L1   0.784940     roc_auc       0.156517    19.022926                0.156517          19.022926            1       True        115
+399                    ExtraTrees_r4_BAG_L1   0.784870     roc_auc       1.089892     2.751274                1.089892           2.751274            1       True        130
+400  NeuralNetTorch_r197_BAG_L1/52c72_00003   0.782723     roc_auc       0.113398   147.577481                0.113398         147.577481            1       True        109
+401  NeuralNetTorch_r197_BAG_L1/52c72_00004   0.782723     roc_auc       0.113952   146.207217                0.113952         146.207217            1       True        110
+402  NeuralNetTorch_r197_BAG_L1/52c72_00002   0.782573     roc_auc       0.265427   144.388406                0.265427         144.388406            1       True        108
+403  NeuralNetTorch_r197_BAG_L1/52c72_00000   0.782573     roc_auc       0.269032   143.892895                0.269032         143.892895            1       True        106
+404  NeuralNetTorch_r158_BAG_L1/6fdef_00004   0.781944     roc_auc       0.733435   329.705703                0.733435         329.705703            1       True        103
+405  NeuralNetTorch_r158_BAG_L1/6fdef_00003   0.781944     roc_auc       0.735798   330.192814                0.735798         330.192814            1       True        102
+406  NeuralNetTorch_r158_BAG_L1/6fdef_00000   0.781944     roc_auc       0.742768   329.901824                0.742768         329.901824            1       True         99
+407  NeuralNetTorch_r197_BAG_L1/52c72_00001   0.781515     roc_auc       0.278881   224.963781                0.278881         224.963781            1       True        107
+408  NeuralNetTorch_r158_BAG_L1/6fdef_00002   0.779776     roc_auc       1.287104   329.553106                1.287104         329.553106            1       True        101
+409  NeuralNetTorch_r158_BAG_L1/6fdef_00001   0.779776     roc_auc       1.298910   330.181862                1.298910         330.181862            1       True        100
+410   NeuralNetTorch_r71_BAG_L1/45b58_00003   0.779271     roc_auc       0.265354    20.515901                0.265354          20.515901            1       True        144
+411   NeuralNetTorch_r71_BAG_L1/45b58_00000   0.779271     roc_auc       0.271554    20.759573                0.271554          20.759573            1       True        141
+412   NeuralNetTorch_r71_BAG_L1/45b58_00002   0.779271     roc_auc       0.272991    21.095166                0.272991          21.095166            1       True        143
+413   NeuralNetTorch_r71_BAG_L1/45b58_00004   0.778900     roc_auc       0.103892    19.437610                0.103892          19.437610            1       True        145
+414   NeuralNetTorch_r71_BAG_L1/45b58_00001   0.778900     roc_auc       0.112129    19.151919                0.112129          19.151919            1       True        142
+415               NeuralNetFastAI_r4_BAG_L1   0.778372     roc_auc       0.346231    30.875500                0.346231          30.875500            1       True        186
+416              NeuralNetFastAI_r11_BAG_L1   0.778211     roc_auc       0.683914    58.827803                0.683914          58.827803            1       True         74
+417             NeuralNetFastAI_r156_BAG_L1   0.777307     roc_auc       0.099574    11.106165                0.099574          11.106165            1       True         87
+418      NeuralNetFastAI_BAG_L1/53486_00003   0.774567     roc_auc       1.269827    90.707630                1.269827          90.707630            1       True         25
+419             NeuralNetFastAI_r100_BAG_L1   0.773276     roc_auc       0.152811    18.339144                0.152811          18.339144            1       True        193
+420                  ExtraTrees_r126_BAG_L1   0.765133     roc_auc       1.609439     3.667501                1.609439           3.667501            1       True        187
+421                   ExtraTreesEntr_BAG_L1   0.763188     roc_auc       1.743983     3.976281                1.743983           3.976281            1       True         21
+422                   ExtraTrees_r49_BAG_L1   0.761273     roc_auc       1.691948     3.768374                1.691948           3.768374            1       True        112
+423                   ExtraTreesGini_BAG_L1   0.761273     roc_auc       1.794225     4.030775                1.794225           4.030775            1       True         20
+424      NeuralNetFastAI_BAG_L1/53486_00002   0.756933     roc_auc       0.250815    15.260111                0.250815          15.260111            1       True         24
+425              NeuralNetFastAI_r65_BAG_L1   0.747328     roc_auc       0.149975    13.116571                0.149975          13.116571            1       True        131
+426                   KNeighborsDist_BAG_L1   0.611752     roc_auc       0.266265     0.393010                0.266265           0.393010            1       True          2
+427                   KNeighborsUnif_BAG_L1   0.606866     roc_auc       0.248729     0.484045                0.248729           0.484045            1       True          1
+Number of models trained: 428
+Types of models trained:
+{'StackerEnsembleModel_CatBoost', 'StackerEnsembleModel_KNN', 'StackerEnsembleModel_TabularNeuralNetTorch', 'WeightedEnsembleModel', 'StackerEnsembleModel_XGBoost', 'StackerEnsembleModel_RF', 'StackerEnsembleModel_LGB', 'StackerEnsembleModel_XT', 'StackerEnsembleModel_NNFastAiTabular'}
+Bagging used: True  (with 8 folds)
+Multi-layer stack-ensembling used: True  (with 3 levels)
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', []) : 28 | ['f0', 'f1', 'f2', 'f3', 'f4', ...]
+*** End of fit() summary ***
