@@ -29,4 +29,4 @@ source activate ag
 ##./cloudflared tunnel --url http://127.0.0.1:8265 &
 
 ## run autogluon
-python kaggle.py 
+python autogluon.py 

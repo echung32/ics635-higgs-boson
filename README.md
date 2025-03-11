@@ -7,3 +7,17 @@
 Kaggle: https://www.kaggle.com/competitions/higgs-boson-detection-2025/overview
 
 Report: [`./report/report.pdf`](https://github.com/echung32/ics635-higgs-boson/blob/main/reports/report.pdf)
+
+## Project Structure
+
+```
+├── README.md          <- The top-level README for developers using this project.
+├── data               <- Data files for the project, including training and test datasets.
+│   ├── submissions    <- Submissions for the competition.
+│   └── models         <- Saved models.
+├── scripts            <- Scripts for autogluon (python and slurm)
+├── notebooks          <- Jupyter notebooks for exploratory data analysis and experiments.
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+├── requirements.txt   <- The requirements file for reproducing the analysis environment.
+└── setup.cfg          <- Configuration file for flake8.
+```
